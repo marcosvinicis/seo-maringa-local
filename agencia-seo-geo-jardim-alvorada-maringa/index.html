@@ -19,61 +19,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Local SEO no Jardim Alvorada",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas no Jardim Alvorada?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. O Jardim Alvorada é um polo comercial gigante em Maringá e atendemos diversos negócios locais para ajudá-los a dominar as buscas orgânicas no bairro."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qual o benefício do SEO para o comércio do Alvorada?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O SEO coloca seu comércio em evidência para a população local, reduzindo a dependência de anúncios caros e gerando um fluxo contínuo de novos clientes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO funciona no Jardim Alvorada?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO prepara sua empresa para ser recomendada por assistentes de IA (como ChatGPT e Gemini) para quem busca pelos melhores serviços no Jardim Alvorada."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Jardim Alvorada",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Jardim Alvorada",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Jardim Alvorada"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Jardim Alvorada."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

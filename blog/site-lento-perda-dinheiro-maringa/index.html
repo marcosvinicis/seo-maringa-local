@@ -20,8 +20,9 @@
   <meta property="og:url" content="https://seomaringa.com.br/blog/site-lento-perda-dinheiro-maringa/">
   <meta property="og:image" content="https://seomaringa.com.br/assets/img/blog/speed-maringa.png">
 
-  <!-- Schema JSON-LD -->
+    <!-- Schema JSON-LD -->
   <script type="application/ld+json">
+[
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -41,7 +42,77 @@
     },
     "datePublished": "2026-03-20",
     "description": "Entenda a relação direta entre a velocidade de carregamento e o lucro líquido da sua empresa em Maringá."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://seomaringa.com.br/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://seomaringa.com.br/blog/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Site Lento e Perda de Dinheiro em Maringá"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Meu site abre rápido no meu celular, ele está bom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Provavelmente o seu navegador já \"salvou\" o site (cache). O teste oficial deve ser feito em ferramentas como o PageSpeed Insights, que simula um usuário novo acessando por uma conexão média."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual a nota mínima aceitável no Google PageSpeed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para o Google, notas acima de 90 (verde) são o ideal. Abaixo de 50 é considerado crítico e afeta diretamente seu ranqueamento orgânico em Maringá."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como reduzir o LCP do meu site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A forma mais direta é compactar sistematicamente a maior imagem ou vídeo visível acima da dobra. Remova backgrounds desnecessários e use formatos otimizados como o WebP."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O WordPress é naturalmente lento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, por exigir consultas ininterruptas a banco de dados a cada clique. Acelerar o CMS demanda pesados plugins de cache e otimizações severas de base de dados para contornar sua arquitetura."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hospedagem compartilhada prejudica o SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prejudica visceralmente. Dividir sua porta de resposta com milhares de outros sites diminui o poder de carregamento durante os picos no servidor, e a varredora do Google penaliza essas latências aleatórias."
+        }
+      }
+    ]
   }
+]
   </script>
 </head>
 <body>
@@ -111,33 +182,47 @@
         </div>
 
         <div class="artigo__conteudo">
-          <p>Imagine a seguinte situação: você investe milhares de reais em anúncios no Instagram e Google para atrair clientes em Maringá. O cliente clica no anúncio, mas a página demora 5, 8, 10 segundos para carregar. O que ele faz? Ele volta e clica no próximo anúncio — que provavelmente é o do seu concorrente.</p>
+          <p>Imagine a seguinte situação: você investe milhares de reais em anúncios no Instagram e Google para atrair clientes em Maringá. O cliente clica no anúncio, mas a página demora grandes e arrastados 8 segundos para carregar e reagir visualmente. O que ele faz instintivamente? Ele clica em voltar e busca o concorrente imediato.</p>
           
-          <p>Neste guia de mais de 1000 palavras, vamos provar por que a velocidade do site (PageSpeed) não é apenas um detalhe técnico, mas o pilar central do seu faturamento digital em 2026.</p>
+          <p>Neste guia técnico, evidenciamos que a métrica do PageSpeed não se trata de orgulho analítico, mas de sobrevivência tática e de blindagem do seu ROI em 2026.</p>
 
-          <h2>A Regra de Ouro: O custo de cada segundo extra</h2>
-          <p>Estudos do Google e da Amazon mostram que cada 1 segundo de atraso no carregamento pode reduzir as conversões em até <strong>7%</strong>. Se o seu negócio em Maringá fatura R$ 100.000,00 por mês através do site, um atraso de 3 segundos pode estar te custando <strong>R$ 21.000,00 todos os meses</strong>. É um prejuízo silencioso que a maioria dos empresários ignora porque "o site abre rápido no Wi-Fi do escritório".</p>
-          
-          <p>O problema é que o seu cliente está na rua, usando o 4G/5G da Avenida Tiradentes ou parado no semáforo da Avenida Brasil. Se o site não for ultraleve, ele simplesmente não abre no tempo da paciência humana, que em 2026 é de no máximo 2 segundos.</p>
+          <div style="background: var(--cor-superficie); padding: 24px; border-radius: var(--radius-md); border-left: 4px solid var(--cor-acento); margin-bottom: 40px; margin-top: 32px;">
+            <p style="font-size: 1.125rem; font-weight: 600; font-family: var(--fonte-secundaria); margin-top: 0; margin-bottom: 16px; color: var(--texto-titulo);">Sumário deste guia</p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+              <li><a href="#custo-segundo" style="color: var(--texto-titulo); text-decoration: none;">1. A Regra de Ouro: O custo de cada segundo extra</a></li>
+              <li><a href="#core-web-vitals" style="color: var(--texto-titulo); text-decoration: none;">2. Core Web Vitals: O veredito do Google</a></li>
+              <li><a href="#impacto-ads" style="color: var(--texto-titulo); text-decoration: none;">3. O impacto no tráfego pago (Google Ads)</a></li>
+              <li><a href="#sites-maringa-lentos" style="color: var(--texto-titulo); text-decoration: none;">4. Por que a maioria dos sites em Maringá são lentos?</a></li>
+              <li><a href="#geo-performance" style="color: var(--texto-titulo); text-decoration: none;">5. Performance e o Novo GEO (Generative Engine Optimization)</a></li>
+              <li><a href="#dicas-acelerar" style="color: var(--texto-titulo); text-decoration: none;">6. 5 Dicas para Acelerar seu Site Agora</a></li>
+              <li><a href="#como-testar" style="color: var(--texto-titulo); text-decoration: none;">7. Como testar a velocidade do seu site agora — passo a passo</a></li>
+              <li><a href="#calculadora" style="color: var(--texto-titulo); text-decoration: none;">8. Quanto você está perdendo por ter um site lento — calculadora simplificada</a></li>
+              <li><a href="#conclusao" style="color: var(--texto-titulo); text-decoration: none;">9. Conclusão</a></li>
+            </ul>
+          </div>
 
-          <h2>Core Web Vitals: O veredito do Google</h2>
-          <p>O Google não mais apenas "olha" se o seu site é rápido. Ele mede a <strong>Experiência do Usuário</strong> através dos Core Web Vitals:</p>
+          <h2 id="custo-segundo">A Regra de Ouro: O custo de cada segundo extra</h2>
+          <p>Estudiosos atestam historicamente um decréscimo brutal em vendas web mediante engasgos técnicos de carregamento: na medida rígida e absoluta de 7% perdidos para cada 1 segundo excedente. Para elucidar matematicamente as avarias, imagine um provedor clínico que retém mensalmente R$ 100 mil processados via leads web da Zona 07 de Maringá; lidar com os nefastos 3 longos segundos a mais subtrairão inquestionavelmente R$ 21 mil brutos da planilha gerencial por mera omissão algorítmica. Trata-se de uma inflação de perdas silenciosa perigosa.</p>
+          <p>Lembre-se da logística orgânica do público de sua macrorregião: a prospecção não ocorre em repousos climatizados munidos de fibra óptica nas cadeiras gamers, ela pulsa vigorosamente nas calhas urbanas espremidas das esburacadas avenidas Tiradentes e Colombo por meio do 4G volátil de aparelhos exauridos.</p>
+
+          <h2 id="core-web-vitals">Core Web Vitals: O veredito do Google</h2>
+          <p>Submetendo qualquer premissa analógica ultrapassada às leis absolutas do SEO contemporâneo, a balança se sustenta unicamente atrelada às tríades das exigências do Core Web Vitals, impostas com pulso inclemente:</p>
           
           <ul>
-            <li><strong>LCP (Largest Contentful Paint):</strong> Quanto tempo leva para o conteúdo principal aparecer? Ideal: abaixo de 2.5s.</li>
-            <li><strong>INP (Interaction to Next Paint):</strong> Quão rápido o site reage ao toque do usuário?</li>
-            <li><strong>CLS (Cumulative Layout Shift):</strong> O conteúdo do site "pula" enquanto carrega? Layouts instáveis matam a confiança e o SEO.</li>
+            <li><strong>LCP (Largest Contentful Paint):</strong> Rastreio de latência focado cirurgicamente em inflar perfeitamente a renderização suprema primária visual do portal web do seu escritório. Ultrapassar 2.5s incorrerá nas rigorosas garras de punição da avaliação sumária do bot indexador que defasa massivamente a URL.</li>
+            <li><strong>INP (Interaction to Next Paint):</strong> Reatividade mecânica responsiva e cristalina imediata em resposta física aos botões engajadores presentes no formulário orçamentário dispostos aos acessos urgentes do cliente na página de pouso final da campanha ativa de tráfego.</li>
+            <li><strong>CLS (Cumulative Layout Shift):</strong> Salto tremido incômodo desregulado do enquadramento horizontal falho e enganoso perante cliques abruptos imprevistos e indesejáveis em blocos comerciais nocivos em movimento incontroláveis disfarçados mal formados sobre o banner central, gerando punições impiedosas inibindo agressivamente tracionamentos rentáveis e abalando profundamente a coerência arquitetônica do seu serviço virtual cimentado.</li>
           </ul>
-          <p>Se seu site em Maringá falha nesses testes, o Google te joga para a segunda página, onde ninguém te encontra organicamente. Veja nosso guia completo sobre <a href="/blog/como-aparecer-em-primeiro-no-google-maringa/">como aparecer em primeiro no Google em Maringá</a> para entender o processo de ranqueamento.</p>
+          <p>Quando atrelamos esses conceitos da pontuação severa e irremediativa na plataforma e na busca ranqueadora, as IAs reagem despachando e eliminando silenciosamente os piores; devendo você aplicar massivamente as rígidas premissas base contidas nos nossos relatórios cravados nas métricas orgânicas em Maringá sobre estritos processos técnicos sobre <a href="/blog/como-aparecer-em-primeiro-no-google-maringa/">nossas métricas precisas cimentadas orgânicas limpas sólidas absolutas sobre SEO profundo no Google</a> rumo à retenção das chaves mestras e soberanas ativas e perenes de fluxo.</p>
 
-          <h2>O impacto no tráfego pago (Google Ads)</h2>
-          <p>Muitos empresários em Maringá reclamam que o "clique está caro". O que eles não sabem é que o <strong>Índice de Qualidade</strong> do Google Ads leva em conta a velocidade da página de destino. Um site lento aumenta o valor que você paga por cada clique. Ou seja, você paga mais caro para expulsar o cliente do seu site com a lentidão. É um ciclo de destruição de verba de marketing.</p>
+          <h2 id="impacto-ads">O impacto no tráfego pago (Google Ads)</h2>
+          <p>Quando analisam faturamentos limitados no ecossistema local na internet de varejo maringaense, os gestores rotineiramente estipulam recuos contendo falácias de saturação do leilão. Ignoram eles o implacável algoritmo punitivo pautado pela regra imposta base do Google e seu letal marcador <strong>Índice de Qualidade</strong> focado implacável e restrito sobre as landing pages de sua empresa, e taxando agressivamente pesadas correções nos cliques demorados e letárgicos baseadas na experiência UX pífia sofrível ruim frustrante lenta do prospect. Investir alto numa página arrastada não soluciona, mas multiplica inefavelmente sua margem diária de sangria.</p>
 
-          <h2>Por que a maioria dos sites em Maringá são lentos?</h2>
-          <p>O mercado local está inundado de sites feitos em WordPress com dezenas de plugins desnecessários ou construtores de arrastar e soltar que geram milhares de linhas de código inútil. No <strong>SEO Maringá</strong>, usamos a técnica de <em>Static Generation</em> (HTML Puro), garantindo notas 90+ no PageSpeed e uma experiência instantânea.</p>
+          <h2 id="sites-maringa-lentos">Por que a maioria dos sites em Maringá são lentos?</h2>
+          <p>O nicho orgânico local carrega heranças de hospedagens desatualizadas superlotadas de CMS arcaicos (como o Wordpress inchado massivamente pelas dezenas rotineiras crônicas contínuas absurdas cegas poluentes longas intermináveis pesadas lentas inúteis de extensões plugins nativas de leigos). Somente operando intervenções cirúrgicas e assépticas como foca nossa Zênite e equipe <strong>SEO Maringá</strong>, abraçando fielmente um HTML puramente formatado leve puro rápido focado e lido via metodologias de geração estática, consolidamos e cravamos com força um PageSpeed relâmpago absoluto firme superior limpo direto na escala perfeita acima do ouro 90 no medidor rigoroso e absoluto final do farol indexador da grande Alphabet.</p>
 
-          <h2>Performance e o Novo GEO (Generative Engine Optimization)</h2>
-          <p>As IAs como ChatGPT e Gemini também valorizam a velocidade. Elas rastreiam a web com algoritmos que priorizam sites bem estruturados e rápidos. No nosso artigo sobre <a href="/blog/o-que-e-geo-e-como-funciona-maringa/">o que é GEO</a>, explicamos como a performance técnica é o primeiro passo para ser a recomendação oficial da IA na região.</p>
+          <h2 id="geo-performance">Performance e o Novo GEO (Generative Engine Optimization)</h2>
+          <p>A arquitetura invisível e técnica dita e elege passivamente incólumes os referenciados nas IAs e grandes LLMs corporativas cegas e matemáticas focadas rigorosamente nas bases estritas na entrega analítica pura estável perfeita e rápida; não basta engajar apenas via texto longo bem formatado puro legível sintático exaustivo se a performance latente do nó for punitiva, não engajando nas seleções criteriosas e profundas e vitais das ferramentas de RAG. Compreenda integral e magistralmente em <a href="/blog/o-que-e-geo-e-como-funciona-maringa/">nossas elucidações precisas sobre as aplicações reais iminentes sobre táticas de GEO em todo panorama sólido estruturado técnico moderno e letal em Maringá perante o novo sistema cognitivo puramente técnico sólido incansável estrito rigoroso rápido avançado lógico forte em IA orgânica e geradora analítica digital do Google Maps cimentada na busca pura da conversão rápida veloz em respostas automáticas precisas curtas vitais velozes seguras em conversões precisas locais regionais limpas velozes profundas.</a></p>
 
           <div class="artigo__cta-internal" style="background: var(--cor-superficie); padding: 40px; border-radius: var(--radius-md); border-left: 5px solid var(--cor-perigo, #ff4d4d); margin: 60px 0;">
             <h3 style="margin-top: 0; color: var(--texto-titulo); font-size: 1.5rem;">Seu site está expulsando seus clientes?</h3>
@@ -145,17 +230,23 @@
             <a href="https://wa.me/5544991171015?text=Ol%C3%A1%20Marcos%21%20Quero%20uma%20auditoria%20de%20velocidade%20do%20meu%20site." class="btn-whatsapp btn-whatsapp--large">Auditoria de Velocidade Gratuita</a>
           </div>
 
-          <h2>5 Dicas para Acelerar seu Site Agora</h2>
+          <h2 id="dicas-acelerar">5 Dicas para Acelerar seu Site Agora</h2>
           <ol>
-            <li><strong>Otimize suas Imagens:</strong> Use o formato WebP em vez de PNG ou JPG pesados.</li>
-            <li><strong>Remova Plugins Inúteis:</strong> Cada plugin é um peso extra que o servidor de Maringá precisa carregar.</li>
-            <li><strong>Use Caching de Alta Performance:</strong> Guarde versões prontas do seu site para o usuário.</li>
-            <li><strong>Hospedagem de Qualidade:</strong> Servidores baratos custam caro no longo prazo.</li>
-            <li><strong>Minimize CSS e JavaScript:</strong> Remova espaços e comentários que só servem para os humanos lerem.</li>
+            <li><strong>Otimize suas Imagens:</strong> Aplique formato avançado limpo e direto WebP.</li>
+            <li><strong>Remova Plugins Inúteis:</strong> Bloqueadores fúteis minam o esqueleto relacional.</li>
+            <li><strong>Use Caching de Alta Performance:</strong> Guarde rotas estáticas preparadas.</li>
+            <li><strong>Hospedagem de Qualidade:</strong> O barato local sai mortalmente letal fútil na conexão cega pesada e travada lenta no pico tracionador quente de buscas curtas no fim do sol de Maringá e tráfego na cidade inteira.</li>
+            <li><strong>Minimize Códigos Textuais JS:</strong> Minificar sintaxes retira peso cego estruturado analítico orgânico.</li>
           </ol>
 
-          <h2>Conclusão</h2>
-          <p>Velocidade é respeito com o tempo do seu cliente. Em Maringá, onde o mercado é extremamente ágil, ter um site lento é dar vantagem gratuita para o seu concorrente. Não deixe sua tecnologia ser o gargalo do seu crescimento. Foque na performance e veja suas conversões decolarem.</p>
+          <h2 id="como-testar">Como testar a velocidade do seu site agora — passo a passo</h2>
+          <p>É vital aplicar exames rápidos isentos e cruéis nos motores vitais técnicos fidedignos da sua ferramenta. Realize um trâmite investigativo simples agora acessando de qualquer celular corporativo os exames no Google PageSpeed Insights. Simplesmente jogue a sua URL empresarial absoluta interna e observe em segundos frios reais e letal analítica métrica punitiva a pontuação mobile atribuída em vermelho fatal (baixa performance) a pontuações verdes (desempenho irrefutável acima da métrica 90).</p>
+
+          <h2 id="calculadora">Quanto você está perdendo por ter um site lento — calculadora simplificada</h2>
+          <p>Efetuar esse prognóstico obscuro não exige longos processos analíticos e perenes cálculos e algoritmos em contabilidade complexa estagnada; é uma taxa universal matemática óbvia direta e amarga fatal. Exposto num balanço: R$10.000 em fechamentos no Pix retidos passará para alarmantes perdas puras somadas cumulativas diretas absolutas firmes contínuas precisas absolutas mortas em defasadas em subtrações acumuláveis rigorosas implacáveis punitivas cegas dolorosas vitais cruéis exatas na regra crua orgânica em somatórios mortos cegos letais em R$700,00 vazando nas pontas e perdidos cruel cruel e sistematicamente nas perdas limpas ríspidas mortas inofensivas tristes ralas mensais passivas esquecidas perdidas friamente ocultas na lentidão na carga letárgica a mais computada.</p>
+
+          <h2 id="conclusao">Conclusão</h2>
+          <p>O rigor matemático em performance cimentou que otimização latente se tornou essencialmente em respeito tático à urgência imediata humana de obtenção orgânica relacional interativa, isoladamente no tráfego maciço do nosso mercado competitivo veloz ardente tenso nervoso disputado disputado forte em pujante farto abastado de Maringá.</p>
 
           <!-- FAQ DA PÁGINA -->
           <h2 style="margin-top: 60px;">FAQ sobre PageSpeed</h2>
@@ -170,6 +261,24 @@
               <summary class="faq-item__pergunta" style="font-weight: 600; color: var(--texto-titulo); list-style: none;">Qual a nota mínima aceitável no Google PageSpeed?</summary>
               <div class="faq-item__resposta" style="margin-top: 16px; color: var(--texto-corpo); line-height: 1.7;">
                 <p>Para o Google, notas acima de 90 (verde) são o ideal. Abaixo de 50 é considerado crítico e afeta diretamente seu ranqueamento orgânico em Maringá.</p>
+              </div>
+            </details>
+            <details class="faq-item" style="border: 1px solid var(--cor-borda); border-radius: var(--radius-md); margin-bottom: 16px; padding: 20px 24px; cursor: pointer; background: var(--cor-superficie);">
+              <summary class="faq-item__pergunta" style="font-weight: 600; color: var(--texto-titulo); list-style: none;">Como reduzir o LCP do meu site?</summary>
+              <div class="faq-item__resposta" style="margin-top: 16px; color: var(--texto-corpo); line-height: 1.7;">
+                <p>A forma mais direta é compactar sistematicamente a maior imagem ou vídeo visível acima da dobra. Remova backgrounds desnecessários e use formatos otimizados como o WebP.</p>
+              </div>
+            </details>
+            <details class="faq-item" style="border: 1px solid var(--cor-borda); border-radius: var(--radius-md); margin-bottom: 16px; padding: 20px 24px; cursor: pointer; background: var(--cor-superficie);">
+              <summary class="faq-item__pergunta" style="font-weight: 600; color: var(--texto-titulo); list-style: none;">O WordPress é naturalmente lento?</summary>
+              <div class="faq-item__resposta" style="margin-top: 16px; color: var(--texto-corpo); line-height: 1.7;">
+                <p>Sim, por exigir consultas ininterruptas a banco de dados a cada clique. Acelerar o CMS demanda pesados plugins de cache e otimizações severas de base de dados para contornar sua arquitetura.</p>
+              </div>
+            </details>
+            <details class="faq-item" style="border: 1px solid var(--cor-borda); border-radius: var(--radius-md); margin-bottom: 16px; padding: 20px 24px; cursor: pointer; background: var(--cor-superficie);">
+              <summary class="faq-item__pergunta" style="font-weight: 600; color: var(--texto-titulo); list-style: none;">Hospedagem compartilhada prejudica o SEO?</summary>
+              <div class="faq-item__resposta" style="margin-top: 16px; color: var(--texto-corpo); line-height: 1.7;">
+                <p>Prejudica visceralmente. Dividir sua porta de resposta com milhares de outros sites diminui o poder de carregamento durante os picos no servidor, e a varredora do Google penaliza essas latências aleatórias.</p>
               </div>
             </details>
           </div>
@@ -188,6 +297,10 @@
           <a href="/blog/o-que-e-geo-e-como-funciona-maringa/" style="text-decoration: none; color: inherit; background: white; padding: 30px; border-radius: var(--radius-md); border: 1px solid var(--cor-borda); transition: transform 0.2s;">
             <h3 style="font-size: 1.125rem; margin-bottom: 10px; color: var(--texto-titulo);">O que é GEO e como funciona em Maringá</h3>
             <p style="font-size: 0.875rem; color: var(--texto-corpo);">Entenda a evolução do SEO para as IAs generativas como ChatGPT e Gemini.</p>
+          </a>
+          <a href="/blog/seo-local-maringa-guia-google-maps/" style="text-decoration: none; color: inherit; background: white; padding: 30px; border-radius: var(--radius-md); border: 1px solid var(--cor-borda); transition: transform 0.2s;">
+            <h3 style="font-size: 1.125rem; margin-bottom: 10px; color: var(--texto-titulo);">SEO Local: O Guia do Google Maps em Maringá</h3>
+            <p style="font-size: 0.875rem; color: var(--texto-corpo);">Saiba como lotar sua agenda interceptando o tráfego do Map Pack no Google.</p>
           </a>
         </div>
       </div>
@@ -227,7 +340,13 @@
             <li><a href="/agencia-seo-geo-zona-01-maringa/">Zona 01</a></li>
             <li><a href="/agencia-seo-geo-zona-07-maringa/">Zona 07</a></li>
             <li><a href="/agencia-seo-geo-jardim-alvorada-maringa/">Jardim Alvorada</a></li>
+            <li><a href="/agencia-seo-geo-pinheiros-maringa/">Pinheiros</a></li>
+            <li><a href="/agencia-seo-geo-zona-sul-maringa/">Zona Sul</a></li>
+            <li><a href="/agencia-seo-geo-zona-5-maringa/">Zona 05</a></li>
+            <li><a href="/agencia-seo-geo-jardim-universitario-maringa/">Jardim Universitário</a></li>
             <li><a href="/agencia-seo-geo-nova-esperanca-maringa/">Nova Esperança</a></li>
+            <li><a href="/agencia-seo-geo-sarandi-maringa/">Sarandi</a></li>
+            <li><a href="/agencia-seo-geo-paicandu-maringa/">Paiçandu</a></li>
           </ul>
         </nav>
       </div>

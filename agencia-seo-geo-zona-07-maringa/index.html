@@ -19,61 +19,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO na Zona 07",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas na Zona 07?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Atendemos diversos negócios na Zona 07, ajudando-os a dominar as buscas locais em um dos bairros mais dinâmicos e competitivos de Maringá."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Por que o SEO é importante para o comércio da Zona 07?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Com a alta densidade de serviços e lojas, o SEO é o diferencial que faz sua empresa aparecer no 'Map Pack' do Google antes dos concorrentes vizinhos."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO beneficia negócios locais na Zona 07?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "As IAs priorizam proximidade e autoridade. O GEO em Maringá garante que quem busca por soluções na Zona 07 receba seu negócio como a indicação principal."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Zona 07",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Zona 07",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Zona 07"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona 07."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

@@ -19,61 +19,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO em Sarandi",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas em Sarandi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Atendemos diversos negócios em Sarandi, ajudando-os a dominar as buscas locais no Google e a atrair o público de toda a região metropolitana de Maringá de forma orgânica."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Por que investir em SEO em Sarandi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sarandi possui um comércio extremamente forte. O SEO garante que seu negócio seja a primeira escolha do cliente no momento exato da busca, evitando que ele vá para a concorrência local ou regional."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO beneficia meu negócio em Sarandi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO (Generative Engine Optimization) prepara sua empresa em Sarandi para as novas buscas via IA (como ChatGPT e Gemini), garantindo que você seja a recomendação principal para quem busca serviços na cidade."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Sarandi",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Sarandi",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "City",
+                              "name": "Sarandi"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Sarandi."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

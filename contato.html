@@ -20,23 +20,82 @@
   <meta property="og:url" content="https://seomaringa.com.br/contato.html">
   <meta property="og:image" content="https://seomaringa.com.br/favicon.png">
 
-  <!-- Schema JSON-LD -->
+  <!-- Schema JSON-LD (Etapa 1) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
+        "@type": "BreadcrumbList",
+        "@id": "https://seomaringa.com.br/contato.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://seomaringa.com.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contato",
+            "item": "https://seomaringa.com.br/contato.html"
+          }
+        ]
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Contato",
-        "item": "https://seomaringa.com.br/contato.html"
+        "@type": "ProfessionalService",
+        "@id": "https://seomaringa.com.br/#organization",
+        "name": "SEO Maringá",
+        "url": "https://seomaringa.com.br/",
+        "image": "https://seomaringa.com.br/favicon.png",
+        "telephone": "+5544991171015",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Carneiro Leão, 563",
+          "addressLocality": "Maringá",
+          "addressRegion": "PR",
+          "postalCode": "87014-010",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -23.4251,
+          "longitude": -51.9397
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "12:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Maringá"
+          }
+        ],
+        "knowsAbout": [
+          "SEO Local",
+          "GEO (Generative Engine Optimization)",
+          "Autoridade Digital"
+        ],
+        "sameAs": [
+          "https://instagram.com/zenitegeo",
+          "https://youtube.com/@zenitegeo"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Marcos Vinícius"
+        }
       }
     ]
   }

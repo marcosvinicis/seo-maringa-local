@@ -20,61 +20,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO no Jardim Universitário",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas no Jardim Universitário?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Atendemos diversos prestadores de serviço no Jardim Universitário, ajudando-os a se tornarem referências para o público diversificado e dinâmico da região da UEM."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qual o benefício do SEO no Jardim Universitário?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Com a alta rotatividade de moradores e estudantes, o SEO garante que sua empresa seja a primeira resposta para quem acaba de chegar no bairro e busca por soluções locais."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO funciona no Jardim Universitário?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO garante que sua empresa no Jardim Universitário apareça nas recomendações das IAs (como ChatGPT e Gemini) para quem busca por conveniência e autoridade na região."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Jardim Universitário",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Jardim Universitário",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Jardim Universitário"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Jardim Universitário."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

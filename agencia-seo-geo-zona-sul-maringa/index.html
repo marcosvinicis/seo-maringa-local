@@ -20,61 +20,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO na Zona Sul",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas na Zona Sul?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Atendemos diversos negócios na Zona Sul, ajudando-os a dominar as buscas locais em um dos polos comerciais de alto padrão que mais crescem em Maringá."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qual a vantagem de fazer SEO para um negócio na Zona Sul?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Com o aumento constante de novos empreendimentos, o SEO garante que sua empresa seja a primeira recomendação para o público premium que reside e consome na Zona Sul."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO ajuda minha empresa na Zona Sul?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO prepara sua empresa para ser recomendada por IAs no contexto de alto padrão da Zona Sul, garantindo que você seja a escolha número 1 quando alguém busca por qualidade absoluta."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Zona Sul",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Zona Sul",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Zona Sul"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona Sul."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

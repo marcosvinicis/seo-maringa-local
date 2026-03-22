@@ -19,61 +19,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO na Zona 01",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas na Zona 01?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Nossa sede está localizada na Zona 01 de Maringá, o que nos permite um atendimento próximo e focado nas necessidades dos negócios do centro da cidade."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qual a vantagem de fazer SEO para um negócio na Zona 01?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A Zona 01 é o coração comercial de Maringá. O SEO garante que sua empresa se destaque em um mar de concorrentes, capturando o cliente no momento exato em que ele busca por uma solução no centro."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO ajuda minha empresa no centro de Maringá?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO prepara sua empresa para ser a resposta direta em IAs como ChatGPT e Gemini para buscas locais. No centro, onde a busca por conveniência é alta, ser a recomendação da IA é um diferencial massivo."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Zona 01",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Zona 01",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Zona 01"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona 01."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

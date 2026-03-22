@@ -20,61 +20,48 @@
   <meta property="og:url" content="https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/">
   <meta property="og:locale" content="pt_BR">
 
-  <!-- Schema JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://seomaringa.com.br/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "SEO e GEO na Zona 5",
-        "item": "https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/"
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas na Zona 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Atendemos diversos negócios na Zona 5, ajudando-os a dominar as buscas locais em um dos bairros mais tradicionais e valorizados de Maringá."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Por que o SEO é importante para o comércio da Zona 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Na Zona 5, onde a tradição encontra o novo comércio, o SEO é o diferencial que mantém sua empresa relevante para as gerações que buscam soluções no Google."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como o GEO ajuda meu negócio na Zona 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O GEO garante que sua empresa na Zona 5 seja citada como referência por assistentes de IA (como ChatGPT e Gemini) para buscas de alta qualidade na região."
-        }
-      }
-    ]
-  }
-  </script>
   <!-- Analytics: ativar via Cloudflare Zaraz no dashboard -->
+  <!-- Schema JSON-LD (Etapa 1) -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@graph": [
+            {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/#breadcrumb",
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "name": "Home",
+                              "item": "https://seomaringa.com.br/"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "name": "SEO em Zona 05",
+                              "item": "https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/"
+                        }
+                  ]
+            },
+            {
+                  "@type": "Service",
+                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/#service",
+                  "name": "Consultoria de SEO e GEO em Zona 05",
+                  "provider": {
+                        "@id": "https://seomaringa.com.br/#organization"
+                  },
+                  "areaServed": [
+                        {
+                              "@type": "Neighborhood",
+                              "name": "Zona 05"
+                        }
+                  ],
+                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona 05."
+            }
+      ]
+}
+  </script>
 </head>
 <body>
 

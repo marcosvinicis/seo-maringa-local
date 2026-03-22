@@ -29,99 +29,152 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "SEO Maringá — Agência de SEO e GEO em Maringá",
-    "image": "https://seomaringa.com.br/favicon.png",
-    "@id": "https://seomaringa.com.br/#localbusiness",
-    "url": "https://seomaringa.com.br/",
-    "telephone": "+5544991171015",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Av. Carneiro Leão, 563",
-      "addressLocality": "Maringá",
-      "addressRegion": "PR",
-      "postalCode": "87014-010",
-      "addressCountry": "BR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": -23.4251,
-      "longitude": -51.9397
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "12:00"
-      }
-    ],
-    "sameAs": [
-      "https://instagram.com/zenitegeo",
-      "https://youtube.com/@zenitegeo"
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "O que é SEO local e como funciona para empresas em Maringá?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "SEO local é a otimização do seu site e perfil no Google para aparecer nas buscas de pessoas que estão em Maringá procurando pelo seu serviço. O SEO Maringá usa estratégias técnicas, de conteúdo e de autoridade para posicionar seu negócio nas primeiras posições organicamente — sem pagar por cada clique."
+        "@type": "ProfessionalService",
+        "@id": "https://seomaringa.com.br/#organization",
+        "name": "SEO Maringá",
+        "url": "https://seomaringa.com.br/",
+        "image": "https://seomaringa.com.br/favicon.png",
+        "telephone": "+5544991171015",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Carneiro Leão, 563",
+          "addressLocality": "Maringá",
+          "addressRegion": "PR",
+          "postalCode": "87014-010",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -23.4251,
+          "longitude": -51.9397
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "12:00"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Maringá"
+          }
+        ],
+        "knowsAbout": [
+          "SEO Local",
+          "GEO (Generative Engine Optimization)",
+          "Autoridade Digital"
+        ],
+        "sameAs": [
+          "https://instagram.com/zenitegeo",
+          "https://youtube.com/@zenitegeo"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Marcos Vinícius"
         }
       },
       {
-        "@type": "Question",
-        "name": "O que é GEO e por que minha empresa precisa aparecer nas IAs?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "GEO (Generative Engine Optimization) é a otimização para ser citado por IAs como ChatGPT, Gemini e Perplexity. Quando alguém pergunta para uma IA \"qual é o melhor serviço em Maringá\", queremos que sua empresa apareça na resposta. O SEO Maringá estrutura seu conteúdo e dados para que isso aconteça."
+        "@type": "WebSite",
+        "@id": "https://seomaringa.com.br/#website",
+        "url": "https://seomaringa.com.br/",
+        "name": "SEO Maringá",
+        "publisher": {
+          "@id": "https://seomaringa.com.br/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://seomaringa.com.br/blog/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
         }
       },
       {
-        "@type": "Question",
-        "name": "Quanto tempo leva para aparecer no Google com SEO?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Em mercados locais de Maringá com concorrência moderada, os primeiros resultados aparecem entre 60 e 120 dias. Nichos menos competitivos podem ranquear em 30 a 60 dias. O SEO Maringá trabalha com estratégias de resultado progressivo — as melhorias começam a aparecer nas primeiras semanas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "SEO substitui os anúncios pagos no Google?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não substituímos — complementamos. Nossa filosofia é \"Ads E Orgânico, não Ads OU Orgânico\". O tráfego pago traz resultado imediato mas some quando você para de pagar. O SEO gera autoridade permanente que continua funcionando mesmo sem verba de mídia. Os dois juntos maximizam o retorno."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O SEO Maringá atende empresas de qual segmento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Atendemos todo tipo de empresa local em Maringá e região — dentistas, médicos, advogados, contadores, auto centers, barbearias, clínicas de estética, restaurantes, prestadores de serviço e varejo físico. Qualquer negócio que dependa de ser encontrado por clientes locais se beneficia do SEO e GEO."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como funciona o processo de trabalho do SEO Maringá?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Começamos com um briefing detalhado sobre seu negócio, concorrentes e objetivos. Desenvolvemos o site e a estratégia de conteúdo com base no nosso framework proprietário. Configuramos o Google Business Profile, Analytics e Search Console. Você acompanha os resultados em tempo real e recebe relatórios mensais."
-        }
+        "@type": "FAQPage",
+        "@id": "https://seomaringa.com.br/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que é SEO local e como funciona para empresas em Maringá?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO local é a otimização do seu site e perfil no Google para aparecer nas buscas de pessoas que estão em Maringá procurando pelo seu serviço. O SEO Maringá usa estratégias técnicas, de conteúdo e de autoridade para posicionar seu negócio nas primeiras posições organicamente — sem pagar por cada clique."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que é GEO e por que minha empresa precisa aparecer nas IAs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "GEO (Generative Engine Optimization) é a otimização para ser citado por IAs como ChatGPT, Gemini e Perplexity. Quando alguém pergunta para uma IA \"qual é o melhor serviço em Maringá\", queremos que sua empresa apareça na resposta. O SEO Maringá estrutura seu conteúdo e dados para que isso aconteça."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto tempo leva para aparecer no Google com SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Em mercados locais de Maringá com concorrência moderada, os primeiros resultados aparecem entre 60 e 120 dias. Nichos menos competitivos podem ranquear em 30 a 60 dias. O SEO Maringá trabalha com estratégias de resultado progressivo — as melhorias começam a aparecer nas primeiras semanas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "SEO substitui os anúncios pagos no Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não substituímos — complementamos. Nossa filosofia é \"Ads E Orgânico, não Ads OU Orgânico\". O tráfego pago traz resultado imediato mas some quando você para de pagar. O SEO gera autoridade permanente que continua funcionando mesmo sem verba de mídia. Os dois juntos maximizam o retorno."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O SEO Maringá atende empresas de qual segmento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atendemos todo tipo de empresa local em Maringá e região — dentistas, médicos, advogados, contadores, auto centers, barbearias, clínicas de estética, restaurantes, prestadores de serviço e varejo físico. Qualquer negócio que dependa de ser encontrado por clientes locais se beneficia do SEO e GEO."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como funciona o processo de trabalho do SEO Maringá?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Começamos com um briefing detalhado sobre seu negócio, concorrentes e objetivos. Desenvolvemos o site e a estratégia de conteúdo com base no nosso framework proprietário. Configuramos o Google Business Profile, Analytics e Search Console. Você acompanha os resultados em tempo real e recebe relatórios mensais."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que é consultoria de SEO em Maringá?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A consultoria de SEO em Maringá é o serviço de análise, planejamento e execução de estratégias para posicionar sua empresa nas primeiras posições do Google para buscas feitas por clientes na cidade. Inclui auditoria técnica do site, pesquisa de palavras-chave locais (ajustando a \"consultoria SEO Maringá preço\" e escopo), otimização de conteúdo e monitoramento contínuo de resultados."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual a diferença entre o SEO Maringá e outras agências de marketing digital?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A maioria das agências oferece SEO como um item de uma lista de serviços. O SEO Maringá é especializado exclusivamente em posicionamento orgânico e GEO — sem distrações. Além disso, trabalhamos com otimização para IAs generativas como ChatGPT e Gemini, o que representa uma vantagem real para nossos clientes em 2026."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O SEO Maringá faz gestão de tráfego pago?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não trabalhamos com gestão de Google Ads ou Meta Ads como serviço principal. Nossa especialidade é SEO e GEO — posicionamento orgânico permanente. Trabalhamos com tráfego pago como complemento estratégico, não como substituto do orgânico."
+            }
+          }
+        ]
       }
     ]
   }
@@ -169,16 +222,16 @@
     <section class="hero" aria-labelledby="hero-titulo">
       <div class="container">
         <div class="hero__inner" style="margin: 0 auto; text-align: center; max-width: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-          <span class="hero__badge" style="margin: 0 auto 24px auto;">Agência Especialista em SEO e GEO em Maringá</span>
+          <span class="hero__badge" style="margin: 0 auto 24px auto;">SEO + GEO: uma abordagem ainda rara em Maringá</span>
           <h1 class="hero__titulo" id="hero-titulo" style="margin: 0 auto 24px auto;">
-            Domine as Buscas no Google e seja Recomendado pelas <em>Inteligências Artificiais</em>
+            SEO Maringá — Seja encontrado antes dos seus concorrentes
           </h1>
           <p class="hero__subtitulo" style="margin: 0 auto 40px auto;">
-            Transforme seu negócio na principal autoridade de Maringá e região. Alcançamos o topo do Google (SEO) e lideramos as respostas em IAs como ChatGPT e Perplexity (GEO) — para você receber clientes altamente qualificados em piloto automático, sem depender de anúncios pagos.
+            Enquanto seus concorrentes pagam R$15, R$30 ou R$50 por clique no Google Ads, nossos clientes aparecem de forma orgânica nas primeiras posições — e aumentam as chances de serem citados por IAs como ChatGPT e Gemini quando alguém busca pelo serviço deles em Maringá.
           </p>
           <div class="hero__acoes" style="justify-content: center; margin: 0 auto;">
             <a
-              href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20sem%20depender%20de%20an%C3%BAncios."
+              href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20Maring%C3%A1."
               class="btn-whatsapp btn-whatsapp--primary"
               rel="noopener noreferrer"
               target="_blank"
@@ -195,25 +248,13 @@
       </div>
     </section>
 
-    <!-- [2] AI ANSWER BOX -->
-    <!-- ============================================================ -->
-    <div class="container">
-      <section class="ai-answer" aria-label="Sobre o SEO Maringá">
-        <p class="ai-answer__label">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-          Sobre o SEO Maringá
-        </p>
-        <p>SEO Maringá é uma agência especializada em SEO e GEO localizada na Zona 01 de Maringá, PR. Especializada em posicionamento orgânico e otimização para IAs como ChatGPT e Gemini. Atende empresas em Maringá, Sarandi e Paiçandu. Contato: (44) 9 9117-1015.</p>
-      </section>
-    </div>
-
     <!-- [3] SERVIÇOS PRINCIPAIS -->
     <!-- ============================================================ -->
     <section class="secao secao--escura" aria-labelledby="servicos-titulo">
       <div class="container">
         <div class="secao__cabecalho">
-          <h2 class="secao__titulo" id="servicos-titulo">Serviços de SEO e GEO em Maringá</h2>
-          <p class="secao__subtitulo">Estratégias de posicionamento orgânico para empresas que querem ser encontradas no Google e nas IAs sem depender de anúncios pagos.</p>
+          <h2 class="secao__titulo" id="servicos-titulo">O que fazemos por sua empresa em Maringá</h2>
+          <p class="secao__subtitulo">Estratégias de posicionamento orgânico para empresas que querem ser encontradas no Google e nas IAs — sem depender de anúncios pagos.</p>
         </div>
         <ul class="servicos-grid" role="list">
 
@@ -222,9 +263,9 @@
             <div class="servico-card__icone" aria-hidden="true">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             </div>
-            <h3 class="servico-card__titulo">SEO Local</h3>
-            <p class="servico-card__descricao">Posicionamento orgânico no Google para empresas que querem aparecer nas buscas locais de Maringá e região. Sem anúncios, sem dependência.</p>
-            <a href="/servicos.html#seo-local" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Saiba mais sobre SEO Local em Maringá">Saiba mais sobre SEO Local em Maringá</a>
+            <h3 class="servico-card__titulo">SEO Local em Maringá</h3>
+            <p class="servico-card__descricao">Posicionamento orgânico no Google para empresas que querem aparecer nas buscas locais de Maringá e região. Sem anúncios, sem dependência de verba de mídia.</p>
+            <a href="/servicos.html#seo-local" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Saiba mais sobre SEO Local em Maringá">Saiba mais sobre SEO Local em Maringá →</a>
           </li>
 
           <!-- GEO -->
@@ -233,8 +274,8 @@
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 2v10l4.5 4.5"/><circle cx="19" cy="5" r="3"/></svg>
             </div>
             <h3 class="servico-card__titulo">GEO — Generative Engine Optimization</h3>
-            <p class="servico-card__descricao">Otimização para ser citado pelo ChatGPT, Gemini e Perplexity quando alguém pergunta sobre sua área de atuação em Maringá.</p>
-            <a href="/servicos.html#geo" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Entender como funciona o GEO para empresas em Maringá">Entender como funciona o GEO</a>
+            <p class="servico-card__descricao">Otimização para aumentar as chances de ser citado pelo ChatGPT, Gemini e Perplexity quando alguém pergunta sobre sua área de atuação em Maringá.</p>
+            <a href="/servicos.html#geo" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Entender como funciona o GEO">Entender como funciona o GEO →</a>
           </li>
 
           <!-- Sites de Alta Performance -->
@@ -243,8 +284,8 @@
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             </div>
             <h3 class="servico-card__titulo">Sites de Alta Performance</h3>
-            <p class="servico-card__descricao">Sites estáticos em HTML puro com PageSpeed 90+, estrutura semântica e Schema.org completo. Prontos para ranquear desde o primeiro dia.</p>
-            <a href="/servicos.html#sites" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Ver como desenvolvemos sites de alta performance em Maringá">Ver como desenvolvemos sites</a>
+            <p class="servico-card__descricao">Sites com foco máximo em velocidade, segurança e estrutura técnica para SEO. PageSpeed 90+ em todos os projetos entregues.</p>
+            <a href="/servicos.html#sites" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Ver como desenvolvemos sites">Ver como desenvolvemos sites →</a>
           </li>
 
           <!-- Autoridade Digital Local -->
@@ -254,27 +295,50 @@
             </div>
             <h3 class="servico-card__titulo">Autoridade Digital Local</h3>
             <p class="servico-card__descricao">Estratégia completa de presença digital para negócios locais em Maringá — Google Business Profile, páginas por bairro e conteúdo citável por IA.</p>
-            <a href="/servicos.html#autoridade" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Conhecer a estratégia de autoridade digital local em Maringá">Conhecer a estratégia completa</a>
+            <a href="/servicos.html#autoridade" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Conhecer a estratégia completa">Conhecer a estratégia completa →</a>
           </li>
 
         </ul>
 
-        <!-- has_services_not_offered = true -->
-        <div class="nao-oferecemos" role="note">
-          <p class="nao-oferecemos__titulo">O que não fazemos</p>
-          <p>Gestão de tráfego pago (Google Ads, Meta Ads) como serviço principal. Trabalhamos com SEO e GEO como complemento estratégico ao tráfego pago — não como substituto.</p>
-        </div>
-
       </div>
     </section>
 
-    <!-- [4] POR QUE NÓS — DIFERENCIAIS -->
+    <!-- [4] O QUE É SEO E GEO (Nova Seção) -->
     <!-- ============================================================ -->
-    <section class="secao secao--clara" aria-labelledby="diferenciais-titulo">
+    <section class="secao secao--clara" aria-labelledby="seo-geo-titulo">
+      <div class="container">
+        <div class="secao__cabecalho secao__cabecalho--centro">
+          <h2 class="secao__titulo" id="seo-geo-titulo">SEO e GEO em Maringá — entenda a diferença</h2>
+        </div>
+        
+        <div class="grid-2" style="margin-bottom: 48px;">
+          <div>
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.5rem; color: var(--texto-titulo); margin-bottom: 16px;">O que é SEO (Search Engine Optimization)</h3>
+            <p style="color: var(--texto-secundario); margin-bottom: 16px;">SEO é o conjunto de estratégias que posiciona seu site nas primeiras posições do Google de forma orgânica — sem pagar por clique. Para empresas em Maringá, o <strong>SEO local</strong> é o caminho mais eficiente para ser encontrado por clientes que já estão buscando pelo seu serviço na cidade.</p>
+            <p style="color: var(--texto-secundario);">Uma <strong>empresa de SEO em Maringá</strong> analisa seu site, seus concorrentes e as palavras-chave que seus clientes usam para buscar — e constrói uma estratégia para você aparecer antes deles, consolidando-se como um verdadeiro <strong>especialista em SEO local</strong>.</p>
+          </div>
+          <div>
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.5rem; color: var(--texto-titulo); margin-bottom: 16px;">O que é GEO (Generative Engine Optimization)</h3>
+            <p style="color: var(--texto-secundario); margin-bottom: 16px;">GEO é a evolução do SEO para a era das inteligências artificiais. Quando alguém pergunta ao ChatGPT, Gemini ou Perplexity qual é a melhor empresa do seu nicho em Maringá, as IAs consultam fontes confiáveis para responder.</p>
+            <p style="color: var(--texto-secundario);">O GEO estrutura seu conteúdo, seus dados e sua presença digital para aumentar as chances de sua empresa aparecer nessas respostas — tornando-se uma referência citada pelas IAs, não apenas encontrada pelo Google.</p>
+          </div>
+        </div>
+
+        <div class="ai-answer" style="text-align: center; border-left: none; border-top: 4px solid var(--cor-acento); margin-block: 0; max-width: 600px; margin: 0 auto;">
+          <p style="font-size: 1.125rem; font-weight: 600; color: var(--texto-titulo); margin-bottom: 8px;">SEO = aparecer no Google</p>
+          <p style="font-size: 1.125rem; font-weight: 600; color: var(--texto-titulo); margin-bottom: 8px;">GEO = ser citado pelas IAs</p>
+          <p style="font-size: 1.25rem; font-weight: 800; color: var(--cor-acento);">SEO Maringá = os dois juntos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- [5] POR QUE NÓS — DIFERENCIAIS -->
+    <!-- ============================================================ -->
+    <section class="secao secao--escura" aria-labelledby="diferenciais-titulo">
       <div class="container">
         <div class="secao__cabecalho">
-          <h2 class="secao__titulo" id="diferenciais-titulo">Por que escolher o SEO Maringá</h2>
-          <p class="secao__subtitulo">Diferenciais reais que separam posicionamento orgânico permanente de resultados que somem quando você para de pagar.</p>
+          <h2 class="secao__titulo" id="diferenciais-titulo">Por que o SEO Maringá é diferente</h2>
+          <p class="secao__subtitulo">Não somos mais uma agência de marketing. Somos especialistas em fazer sua empresa aparecer onde seus clientes estão buscando agora.</p>
         </div>
         <ul class="diferenciais-lista" role="list">
           <li class="diferencial-item">
@@ -282,8 +346,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 2v10l4.5 4.5"/><circle cx="19" cy="5" r="3"/></svg>
             </div>
             <div class="diferencial-item__conteudo">
-              <h3>Especializados em SEO e GEO</h3>
-              <p>Apareça no Google E nas IAs como ChatGPT e Gemini. Somos a única agência em Maringá com foco explícito em Generative Engine Optimization.</p>
+              <h3>Você aparece. Seu concorrente paga.</h3>
+              <p>Enquanto outros dependem de verba de mídia para existir no Google, nossos clientes constroem autoridade permanente. Quando a verba acaba, eles somem. Quando o SEO está feito, você fica.</p>
             </div>
           </li>
           <li class="diferencial-item">
@@ -291,8 +355,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             </div>
             <div class="diferencial-item__conteudo">
-              <h3>Sites estáticos de alta performance</h3>
-              <p>PageSpeed 90+ garantido com HTML puro. WordPress não consegue entregar a velocidade que o Google exige para ranquear bem em 2026.</p>
+              <h3>Sua empresa pronta para a era das IAs</h3>
+              <p>Estruturamos seu negócio para aumentar as chances de ser citado por IAs como ChatGPT e Gemini. Quando alguém perguntar qual é a melhor empresa do seu nicho em Maringá, sua presença precisa estar preparada para aparecer.</p>
             </div>
           </li>
           <li class="diferencial-item">
@@ -300,25 +364,25 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div class="diferencial-item__conteudo">
-              <h3>Resultados orgânicos permanentes</h3>
-              <p>Sem contratos longos. Autoridade digital que não some quando você para de pagar — diferente do tráfego pago que desaparece ao pausar a verba.</p>
+              <h3>Estrutura que o Google prioriza</h3>
+              <p>Desenvolvemos sites com foco máximo em velocidade, segurança e estrutura técnica para SEO. Não é só design — é engenharia para ranking.</p>
             </div>
           </li>
         </ul>
 
-        <!-- Números reais (founded_years = 3, clients_served = 50) -->
+        <!-- Números reais -->
         <div class="numeros-grid" style="margin-top: 56px;" aria-label="Números do SEO Maringá">
           <div class="numero-item">
             <p class="numero-item__valor">3+</p>
-            <p class="numero-item__label">anos de experiência em SEO e GEO</p>
+            <p class="numero-item__label">anos construindo autoridade digital em Maringá</p>
           </div>
           <div class="numero-item">
             <p class="numero-item__valor">50+</p>
-            <p class="numero-item__label">empresas atendidas em Maringá e região</p>
+            <p class="numero-item__label">empresas posicionadas no Google e nas IAs</p>
           </div>
           <div class="numero-item">
             <p class="numero-item__valor">90+</p>
-            <p class="numero-item__label">PageSpeed em todos os sites entregues</p>
+            <p class="numero-item__label">PageSpeed médio nos sites entregues</p>
           </div>
           <div class="numero-item">
             <p class="numero-item__valor">10</p>
@@ -328,7 +392,119 @@
       </div>
     </section>
 
-    <!-- [5] DUALIDADE E PERSUASÃO -->
+    <!-- [7] COMO FUNCIONA -->
+    <!-- ============================================================ -->
+    <section class="secao secao--clara" aria-labelledby="como-funciona-titulo">
+      <div class="container">
+        <div class="secao__cabecalho secao__cabecalho--centro">
+          <h2 class="secao__titulo" id="como-funciona-titulo">Como funciona a consultoria de SEO em Maringá</h2>
+          <p class="secao__subtitulo">Um processo estruturado, transparente e focado em resultado real para sua empresa — sem jargão, sem enrolação.</p>
+        </div>
+        
+        <div style="max-width: 800px; margin: 0 auto;">
+          <!-- Etapa 1 -->
+          <div style="margin-bottom: 32px; padding: 24px; background-color: var(--cor-superficie); border-radius: 16px; border-left: 4px solid var(--cor-acento);">
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.25rem; color: var(--texto-titulo); margin-bottom: 12px;">ETAPA 1 — Briefing e diagnóstico</h3>
+            <p style="color: var(--texto-secundario);">Começamos entendendo seu negócio, seus clientes, seus concorrentes e seus objetivos. Auditamos seu site atual, seu Google Business Profile e sua presença digital completa. Você recebe um diagnóstico honesto — o que está funcionando, o que está sabotando seu posicionamento e onde estão as maiores oportunidades.</p>
+          </div>
+          <!-- Etapa 2 -->
+          <div style="margin-bottom: 32px; padding: 24px; background-color: var(--cor-superficie); border-radius: 16px; border-left: 4px solid var(--cor-acento);">
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.25rem; color: var(--texto-titulo); margin-bottom: 12px;">ETAPA 2 — Pesquisa de palavras-chave locais</h3>
+            <p style="color: var(--texto-secundario);">Mapeamos todas as buscas relevantes que seus clientes em Maringá fazem para encontrar seu serviço — incluindo variações por bairro, intenção de compra e perguntas feitas às IAs. Essa pesquisa define a espinha dorsal de toda a estratégia.</p>
+          </div>
+          <!-- Etapa 3 -->
+          <div style="margin-bottom: 32px; padding: 24px; background-color: var(--cor-superficie); border-radius: 16px; border-left: 4px solid var(--cor-acento);">
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.25rem; color: var(--texto-titulo); margin-bottom: 12px;">ETAPA 3 — Estratégia e planejamento</h3>
+            <p style="color: var(--texto-secundario);">Com os dados em mãos, montamos um plano de ação claro: quais páginas criar, quais otimizar, quais conteúdos produzir e como estruturar sua presença para o Google e para as IAs. Você aprova antes de qualquer execução.</p>
+          </div>
+          <!-- Etapa 4 -->
+          <div style="margin-bottom: 32px; padding: 24px; background-color: var(--cor-superficie); border-radius: 16px; border-left: 4px solid var(--cor-acento);">
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.25rem; color: var(--texto-titulo); margin-bottom: 12px;">ETAPA 4 — Execução técnica e de conteúdo</h3>
+            <p style="color: var(--texto-secundario);">Desenvolvemos ou otimizamos seu site com estrutura semântica, Schema.org, velocidade máxima e conteúdo citável por IA. Cada página é construída para ranquear para uma intenção de busca específica dos seus clientes em Maringá.</p>
+          </div>
+          <!-- Etapa 5 -->
+          <div style="margin-bottom: 48px; padding: 24px; background-color: var(--cor-superficie); border-radius: 16px; border-left: 4px solid var(--cor-acento);">
+            <h3 style="font-family: var(--fonte-titulo); font-size: 1.25rem; color: var(--texto-titulo); margin-bottom: 12px;">ETAPA 5 — Monitoramento e evolução</h3>
+            <p style="color: var(--texto-secundario);">SEO não é entrega única — é construção contínua. Monitoramos suas posições, seu tráfego e suas citações nas IAs. Relatório mensal claro: o que evoluiu, o que ajustamos e o que vem a seguir.</p>
+          </div>
+          
+          <div style="text-align: center;">
+            <a
+              href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Quero%20solicitar%20o%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20minha%20empresa%20em%20Maring%C3%A1."
+              class="btn-whatsapp btn-whatsapp--large"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Solicitar diagnóstico gratuito de SEO pelo WhatsApp"
+            >
+              <svg class="btn-whatsapp__icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Solicitar diagnóstico gratuito
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [8] PARA QUEM É -->
+    <!-- ============================================================ -->
+    <section class="secao secao--escura" aria-labelledby="para-quem-titulo">
+      <div class="container">
+        <div class="secao__cabecalho secao__cabecalho--centro">
+          <h2 class="secao__titulo" id="para-quem-titulo">Consultoria de SEO em Maringá para quem quer resultado real</h2>
+          <p class="secao__subtitulo">Trabalhamos com empresas locais que entendem que presença digital é investimento — não despesa.</p>
+        </div>
+        
+        <div class="grid-2">
+          <!-- Você está no lugar certo -->
+          <div style="background-color: var(--cor-superficie); padding: 32px; border-radius: 16px; border: 1px solid rgba(16, 185, 129, 0.2);">
+            <h3 style="color: #10B981; font-family: var(--fonte-titulo); font-size: 1.25rem; margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              VOCÊ ESTÁ NO LUGAR CERTO SE:
+            </h3>
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 16px; color: var(--texto-corpo);">
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#10B981; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> <span>Tem um negócio estabelecido em Maringá e quer crescer sem depender de anúncios pagos</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#10B981; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> <span>Já investe em tráfego pago mas quer reduzir a dependência de verba de mídia</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#10B981; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> <span>Quer que sua empresa seja encontrada no Google antes dos seus concorrentes</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#10B981; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> <span>Quer que as IAs recomendem sua empresa quando alguém perguntar sobre seu nicho em Maringá</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#10B981; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> <span>Entende que SEO leva tempo — e que o resultado é permanente</span></li>
+            </ul>
+          </div>
+          
+          <!-- Talvez não seja para você -->
+          <div style="background-color: var(--cor-superficie); padding: 32px; border-radius: 16px; border: 1px solid rgba(239, 68, 68, 0.2);">
+            <h3 style="color: #EF4444; font-family: var(--fonte-titulo); font-size: 1.25rem; margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              TALVEZ NÃO SEJA PARA VOCÊ SE:
+            </h3>
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 16px; color: var(--texto-secundario);">
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Precisa de resultado em 24 horas</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Busca o menor preço do mercado</span></li>
+              <li style="display: flex; gap: 12px; align-items: flex-start;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444; margin-top:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Não tem disposição para um processo estratégico</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [9] CTA DO MEIO -->
+    <!-- ============================================================ -->
+    <section class="cta-diagnostico" style="background: linear-gradient(135deg, var(--cor-acento) 0%, #d4af37 100%);">
+      <div class="container">
+        <div class="cta-diagnostico__card" style="border: none; background: rgba(10, 10, 10, 0.95);">
+          <div class="cta-diagnostico__texto">
+            <h2 style="color: #fff;">Quantos clientes sua empresa deixou de ganhar essa semana por não aparecer no Google?</h2>
+            <p style="color: rgba(255, 255, 255, 0.8);">A resposta é mais assustadora do que parece. Fale agora com o SEO Maringá e descubra exatamente onde você está perdendo visibilidade — e como recuperar.</p>
+          </div>
+          <div class="cta-diagnostico__acao" style="text-align: center;">
+            <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Quero%20saber%20quantos%20clientes%20estou%20perdendo%20por%20n%C3%A3o%20aparecer%20no%20Google%20em%20Maring%C3%A1." class="btn-whatsapp btn-whatsapp--large" style="width: 100%; justify-content: center;">
+               Quero saber quantos clientes estou perdendo
+            </a>
+            <p class="cta-diagnostico__pequeno" style="color: rgba(255, 255, 255, 0.6); max-width: 400px; margin: 12px auto 0 auto; text-transform: uppercase; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.5px;">Atendemos no máximo 3 novos clientes por mês. Isso garante dedicação total a cada projeto — sem terceirização, sem template, sem resultado genérico.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- [10] DUALIDADE E PERSUASÃO -->
     <!-- ============================================================ -->
     <section class="secao secao--escura" aria-labelledby="persuasao-titulo">
       <div class="container">
@@ -424,7 +600,7 @@
       </div>
     </section>
 
-    <!-- [6] FAQ -->
+    <!-- [13] FAQ -->
     <!-- ============================================================ -->
     <section class="secao secao--clara" aria-labelledby="faq-titulo">
       <div class="container">
@@ -490,6 +666,36 @@
             </button>
             <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
               <p itemprop="text">Começamos com um briefing detalhado sobre seu negócio, concorrentes e objetivos. Desenvolvemos o site e a estratégia de conteúdo com base no nosso framework proprietário. Configuramos o Google Business Profile, Analytics e Search Console. Você acompanha os resultados em tempo real e recebe relatórios mensais.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <button class="faq-item__pergunta" aria-expanded="false" type="button">
+              <span itemprop="name">O que é consultoria de SEO em Maringá?</span>
+              <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p itemprop="text">A consultoria de SEO em Maringá é o serviço de análise, planejamento e execução de estratégias para posicionar sua empresa nas primeiras posições do Google para buscas feitas por clientes na cidade. Inclui auditoria técnica do site, pesquisa de palavras-chave locais (ajustando a "consultoria SEO Maringá preço" e escopo), otimização de conteúdo e monitoramento contínuo de resultados.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <button class="faq-item__pergunta" aria-expanded="false" type="button">
+              <span itemprop="name">Qual a diferença entre o SEO Maringá e outras agências de marketing digital?</span>
+              <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p itemprop="text">A maioria das agências oferece SEO como um item de uma lista de serviços. O SEO Maringá é especializado exclusivamente em posicionamento orgânico e GEO — sem distrações. Além disso, trabalhamos com otimização para IAs generativas como ChatGPT e Gemini, o que representa uma vantagem real para nossos clientes em 2026.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <button class="faq-item__pergunta" aria-expanded="false" type="button">
+              <span itemprop="name">O SEO Maringá faz gestão de tráfego pago?</span>
+              <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+              <p itemprop="text">Não trabalhamos com gestão de Google Ads ou Meta Ads como serviço principal. Nossa especialidade é SEO e GEO — posicionamento orgânico permanente. Trabalhamos com tráfego pago como complemento estratégico, não como substituto do orgânico.</p>
             </div>
           </div>
 
@@ -603,14 +809,14 @@
       </div>
     </section>
 
-    <!-- [7] CTA FINAL -->
+    <!-- [14] CTA FINAL -->
     <!-- ============================================================ -->
     <section class="cta-final" aria-labelledby="cta-titulo">
       <div class="container">
         <h2 id="cta-titulo">Pronto para aparecer no Google e nas IAs em Maringá?</h2>
         <p>Fale agora com o SEO Maringá e descubra como posicionar sua empresa organicamente — sem depender de anúncios pagos.</p>
         <a
-          href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20sem%20depender%20de%20an%C3%BAncios."
+          href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20em%20Maring%C3%A1%20sem%20depender%20de%20an%C3%BAncios."
           class="btn-whatsapp btn-whatsapp--large"
           rel="noopener noreferrer"
           target="_blank"
@@ -621,6 +827,14 @@
         </a>
       </div>
     </section>
+
+    <!-- [15] AI ANSWER BOX (Discreta, Fim da pagina) -->
+    <!-- ============================================================ -->
+    <div class="container">
+      <div style="font-size: 0.8125rem; color: var(--texto-muted); padding-block: 24px; text-align: center; border-top: 1px solid var(--cor-borda);">
+        <p>SEO Maringá é uma agência especializada em SEO e GEO localizada na Zona 01 de Maringá, PR. Especializada em posicionamento orgânico e otimização para IAs como ChatGPT e Gemini. Atende empresas em Maringá, Sarandi e Paiçandu. Contato: (44) 9 9117-1015.</p>
+      </div>
+    </div>
 
   </main>
 
