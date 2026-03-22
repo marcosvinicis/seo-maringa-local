@@ -14,8 +14,10 @@
 
   <link rel="icon" type="image/png" href="/favicon.png">
 
+  
+  <link rel="preload" href="/assets/img/maringa-catedral-seo.webp" as="image" fetchpriority="high">
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <style>:root{--cor-primaria:#0A1628;--cor-acento:#00D4FF;--cor-acento-2:#00BFA6;--cor-fundo:#060E1A;--cor-superficie:#0F1F35;--cor-borda:#1A2F4A;--texto-titulo:#E2E8F0;--texto-corpo:#C8D6E5;--texto-secundario:#8899AA;--texto-muted:#8BA0B5;--cor-whatsapp:#0F672F;--cor-whatsapp-hover:#0B4E23;--fonte-titulo:'Syne',sans-serif;--fonte-corpo:'Outfit',sans-serif;--secao-gap-desktop:80px;--secao-gap-mobile:48px;--card-padding-desktop:24px;--card-padding-mobile:16px;--radius-sm:6px;--radius-md:12px;--radius-lg:20px;--sombra-card:0 4px 24px rgba(0, 0, 0, 0.4);--sombra-elevada:0 8px 40px rgba(0, 212, 255, 0.08);--transicao:0.2s ease;--max-width:1200px;--padding-lateral:24px}*,::after,::before{box-sizing:border-box;margin:0;padding:0}html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}body{background-color:var(--cor-fundo);color:var(--texto-corpo);font-family:var(--fonte-corpo);font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}img,video{max-width:100%;height:auto;display:block}a{color:var(--cor-acento);text-decoration:none;transition:color var(--transicao),opacity var(--transicao)}a:hover{color:var(--cor-acento-2)}ol,ul{list-style:none}button{cursor:pointer;border:none;background:0 0;font-family:inherit}h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulo);font-weight:800;color:var(--texto-titulo);line-height:1.2}h1{font-size:clamp(2rem, 5vw, 3.25rem)}h2{font-size:clamp(1.5rem, 3.5vw, 2.25rem)}h3{font-size:clamp(1.125rem, 2.5vw, 1.5rem)}h4{font-size:1.125rem}p{color:var(--texto-corpo);line-height:1.75}p+p{margin-top:1rem}strong{font-weight:600;color:var(--texto-titulo)}.container{width:100%;max-width:var(--max-width);margin-inline:auto;padding-inline:var(--padding-lateral)}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:32px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}@media (max-width:900px){.grid-3,.grid-4{grid-template-columns:1fr 1fr}}@media (max-width:600px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}.secao{padding-block:var(--secao-gap-desktop)}.secao--clara{background-color:var(--cor-superficie)}.secao--escura{background-color:var(--cor-fundo)}.secao__titulo{margin-bottom:16px}.secao__subtitulo{color:var(--texto-secundario);font-size:1.125rem;margin-bottom:48px;max-width:640px}.secao__cabecalho{margin-bottom:48px}.secao__cabecalho--centro{text-align:center}.secao__cabecalho--centro .secao__subtitulo{margin-inline:auto}@media (max-width:768px){.secao{padding-block:var(--secao-gap-mobile)}.secao__subtitulo{margin-bottom:32px}.secao__cabecalho{margin-bottom:32px}}.header{position:sticky;top:0;z-index:100;background-color:rgba(6,14,26,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--cor-borda)}.header__inner{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px;width:100%}.header__logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:1;min-width:0}.header__logo-texto{font-family:var(--fonte-titulo);font-weight:800;font-size:1.25rem;color:var(--texto-titulo);line-height:1}.header__logo-texto span{color:var(--cor-acento)}.nav__lista{display:flex;align-items:center;gap:32px}.nav__link{font-size:.9375rem;font-weight:600;color:var(--texto-secundario);transition:color var(--transicao);white-space:nowrap}.nav__link--ativo,.nav__link:hover{color:var(--texto-titulo)}.header__cta{flex-shrink:0}.nav__toggle{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer}.nav__toggle span{display:block;width:24px;height:2px;background-color:var(--texto-titulo);border-radius:2px;transition:transform var(--transicao),opacity var(--transicao)}@media (max-width:900px){.nav__toggle{display:flex}.header__cta{display:none}.nav{position:fixed;top:72px;left:0;right:0;bottom:0;background-color:var(--cor-fundo);padding:32px var(--padding-lateral);transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;z-index:99}.nav--aberto{transform:translateX(0)}.nav__lista{flex-direction:column;align-items:flex-start;gap:24px}.nav__link{font-size:1.25rem;color:var(--texto-titulo)}}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 24px;border-radius:var(--radius-md);font-family:var(--fonte-corpo);font-weight:600;font-size:.9375rem;line-height:1;text-decoration:none;transition:background-color var(--transicao),color var(--transicao),transform var(--transicao),box-shadow var(--transicao);cursor:pointer;white-space:nowrap}.btn:hover{transform:translateY(-1px)}.btn:active{transform:translateY(0)}.btn--primario{background-color:var(--cor-acento);color:var(--cor-fundo)}.btn--primario:hover{background-color:var(--cor-acento-2);color:var(--cor-fundo);box-shadow:0 4px 20px rgba(0,212,255,.3)}.btn--secundario{background-color:transparent;color:var(--cor-acento);border:1.5px solid var(--cor-acento)}.btn--secundario:hover{background-color:rgba(0,212,255,.08);color:var(--cor-acento)}.btn-whatsapp{background-color:var(--cor-whatsapp);color:#fff;border-radius:var(--radius-md);font-weight:600;padding:14px 28px;font-size:1rem;display:inline-flex;align-items:center;gap:10px;text-decoration:none;transition:background-color var(--transicao),transform var(--transicao),box-shadow var(--transicao);position:relative}.btn-whatsapp:hover{background-color:var(--cor-whatsapp-hover);color:#fff;transform:translateY(-2px);box-shadow:0 6px 24px rgba(37,211,102,.35)}.btn-whatsapp--primary{animation:pulse-whatsapp 2.5s infinite}@keyframes pulse-whatsapp{0%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 0 0 12px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}.btn-whatsapp--primary:hover{animation:none}.btn-whatsapp--large{padding:18px 36px;font-size:1.125rem}.btn-whatsapp__icone{width:22px;height:22px;flex-shrink:0}.hero,.hero-local{padding-block:clamp(100px,12vw,160px);position:relative;overflow:hidden;text-align:center;display:flex;align-items:center;justify-content:center;min-height:70vh;background-color:var(--cor-fundo);background-position:center!important;background-repeat:no-repeat!important;background-size:cover!important;border-bottom:2px solid var(--cor-acento);background-image:linear-gradient(rgba(6,14,26,.7) 0,rgba(6,14,26,.85) 100%),url('/assets/img/maringa-catedral-seo.webp')!important;width:100%}.hero-local__inner,.hero__inner{position:relative;z-index:10;max-width:900px;width:100%;margin:0 auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important}.hero__badge{display:inline-flex;align-items:center;justify-content:center;gap:8px;background-color:rgba(0,212,255,.2);border:1px solid rgba(0,212,255,.4);color:var(--cor-acento);font-size:.8125rem;font-weight:700;padding:6px 16px;border-radius:100px;margin-bottom:24px;letter-spacing:.05em;text-transform:uppercase;backdrop-filter:blur(4px)}.hero-local h1,.hero__titulo{margin-bottom:24px;line-height:1.15;color:#fff;text-align:center!important;text-shadow:0 4px 20px rgba(0,0,0,.8);letter-spacing:-.02em;font-weight:800;max-width:860px;margin-inline:auto!important}.hero__titulo em{font-style:normal;color:var(--cor-acento)}.hero-local__sub,.hero__subtitulo{font-size:clamp(1rem, 2vw, 1.25rem);color:rgba(255,255,255,.95);margin-bottom:40px;max-width:720px;text-align:center!important;margin-inline:auto!important;line-height:1.6;text-shadow:0 2px 10px rgba(0,0,0,.6);letter-spacing:-.01em}.hero__acoes{display:flex;align-items:center;justify-content:center!important;gap:20px;flex-wrap:wrap;width:100%}@media (max-width:768px){.hero,.hero-local{padding-block:80px 60px;min-height:80vh}.hero__acoes{flex-direction:column;align-items:center!important;width:100%;max-width:320px;margin-inline:auto}}.ai-answer{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-left:4px solid var(--cor-acento);border-radius:var(--radius-md);padding:20px 24px;margin-block:40px}.ai-answer p{font-size:.9375rem;color:var(--texto-secundario);line-height:1.7;margin:0}.ai-answer__label{display:flex;align-items:center;gap:6px;font-size:.75rem;font-weight:600;color:var(--cor-acento);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}.servicos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}.servico-card{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-md);padding:var(--card-padding-desktop);transition:border-color var(--transicao),box-shadow var(--transicao),transform var(--transicao)}.servico-card:hover{border-color:var(--cor-acento);box-shadow:var(--sombra-elevada);transform:translateY(-2px)}.servico-card--destaque{border-color:rgba(0,212,255,.4);background:linear-gradient(135deg,var(--cor-superficie) 0,rgba(0,212,255,.04) 100%)}.servico-card__icone{width:44px;height:44px;background-color:rgba(0,212,255,.1);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:var(--cor-acento)}.servico-card__titulo{font-size:1.0625rem;margin-bottom:10px}.servico-card__descricao{font-size:.9375rem;color:var(--texto-secundario);line-height:1.65}.servicos-local .servicos-grid{margin-top:32px}@media (max-width:768px){.servico-card{padding:var(--card-padding-mobile)}}.diferenciais-lista{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}.diferencial-item{display:flex;gap:16px;align-items:flex-start}.diferencial-item__icone{width:40px;height:40px;background-color:rgba(0,191,166,.12);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--cor-acento-2)}.diferencial-item__conteudo h3{font-size:1rem;margin-bottom:6px}.diferencial-item__conteudo p{font-size:.9rem;color:var(--texto-secundario)}.numeros-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:24px;text-align:center}.numero-item__valor{font-family:var(--fonte-titulo);font-size:2.5rem;font-weight:800;color:var(--cor-acento);line-height:1;margin-bottom:8px}.numero-item__label{font-size:.875rem;color:var(--texto-secundario)}.faq-lista{display:flex;flex-direction:column;gap:20px;max-width:850px;margin-inline:auto}.faq-item{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-md);overflow:hidden;transition:border-color var(--transicao),box-shadow var(--transicao)}.faq-item:hover{border-color:var(--cor-acento);box-shadow:0 4px 20px rgba(0,0,0,.2)}.faq-item__pergunta{width:100%;padding:24px;font-weight:700;color:var(--texto-titulo);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;background:0 0;border:none;font-family:inherit}.faq-item__icone{width:20px;height:20px;color:var(--cor-acento);transition:transform .3s ease;flex-shrink:0}.faq-item--aberto .faq-item__icone{transform:rotate(45deg)}.faq-item__resposta{max-height:0;overflow:hidden;padding-inline:24px;transition:max-height .3s ease,padding .3s ease;color:var(--texto-secundario);line-height:1.8}.faq-item--aberto .faq-item__resposta{max-height:500px;padding-bottom:24px;border-top:1px solid rgba(255,255,255,.05);padding-top:20px}.faq-item__resposta p{margin-bottom:16px}.faq-item__resposta p:last-child{margin-bottom:0}.faq-local .faq-lista{max-width:100%}.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.area-link{display:flex;align-items:center;gap:10px;padding:14px 18px;background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-sm);color:var(--texto-corpo);font-size:.9375rem;font-weight:500;text-decoration:none;transition:border-color var(--transicao),color var(--transicao),background-color var(--transicao)}.area-link:hover{border-color:var(--cor-acento);color:var(--cor-acento);background-color:rgba(0,212,255,.04)}.area-link__icone{width:16px;height:16px;color:var(--cor-acento);flex-shrink:0}.areas-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}.areas-list li a{display:block;padding:12px 16px;background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-sm);color:var(--texto-corpo);font-size:.9rem;transition:border-color var(--transicao),color var(--transicao)}.areas-list li a:hover{border-color:var(--cor-acento);color:var(--cor-acento)}.cta-final{text-align:center;padding-block:var(--secao-gap-desktop);background:linear-gradient(135deg,var(--cor-primaria) 0,var(--cor-fundo) 100%);border-top:1px solid var(--cor-borda)}.cta-final h2{margin-bottom:16px}.cta-final p{color:var(--texto-secundario);margin-bottom:32px;font-size:1.0625rem}@media (max-width:768px){.cta-final{padding-block:var(--secao-gap-mobile)}}.breadcrumb{padding-block:16px;border-bottom:1px solid var(--cor-borda);background-color:var(--cor-superficie)}.breadcrumb ol{display:flex;align-items:center;gap:8px;flex-wrap:wrap;list-style:none}.breadcrumb li{display:flex;align-items:center;gap:8px;font-size:.875rem;color:var(--texto-muted)}.breadcrumb li:not(:last-child)::after{content:'/';color:var(--texto-muted)}.breadcrumb a{color:var(--texto-secundario);text-decoration:none;transition:color var(--transicao)}.breadcrumb a:hover{color:var(--cor-acento)}.breadcrumb [aria-current=page]{color:var(--texto-titulo)}.footer{background-color:var(--cor-primaria);border-top:1px solid var(--cor-borda);padding-block:64px 32px}.footer__grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}.footer__marca-nome{font-family:var(--fonte-titulo);font-weight:800;font-size:1.25rem;color:var(--texto-titulo);margin-bottom:12px}.footer__marca-nome span{color:var(--cor-acento)}.footer__descricao{font-size:.9rem;color:var(--texto-secundario);line-height:1.7;margin-bottom:20px}.footer__contato-item{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--texto-secundario);margin-bottom:8px}.footer__contato-item a{color:var(--texto-secundario);transition:color var(--transicao)}.footer__contato-item a:hover{color:var(--cor-acento)}.footer__titulo-coluna{font-size:.8125rem;font-weight:700;color:var(--texto-titulo);text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}.footer__lista li{margin-bottom:10px}.footer__lista a{font-size:.9rem;color:var(--texto-secundario);transition:color var(--transicao)}.footer__lista a:hover{color:var(--cor-acento)}.footer__horario-item{font-size:.875rem;color:var(--texto-secundario);margin-bottom:6px}.footer__horario-item strong{color:var(--texto-corpo);font-weight:600}.footer-areas h3{font-size:.8125rem;font-weight:700;color:var(--texto-titulo);text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}.footer-areas ul{display:flex;flex-direction:column;gap:8px}.footer-areas ul li a{font-size:.875rem;color:var(--texto-secundario);transition:color var(--transicao)}.footer-areas ul li a:hover{color:var(--cor-acento)}.footer__rodape{border-top:1px solid var(--cor-borda);padding-top:24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer__copyright{font-size:.8125rem;color:var(--texto-muted)}.footer__credito{font-size:.8125rem;color:var(--texto-muted)}.footer__credito a{color:var(--cor-acento-2);font-weight:600}.footer__credito a:hover{color:var(--cor-acento)}@media (max-width:900px){.footer__grid{grid-template-columns:1fr 1fr;gap:32px}}@media (max-width:600px){.footer__grid{grid-template-columns:1fr;gap:32px}.footer__rodape{flex-direction:column;align-items:flex-start;gap:8px}}.equipe-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px}.membro-card{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-md);padding:var(--card-padding-desktop);text-align:center}.membro-card__foto-placeholder{width:80px;height:80px;border-radius:50%;background-color:var(--cor-borda);margin-inline:auto;margin-bottom:16px;display:flex;align-items:center;justify-content:center;color:var(--texto-muted);font-size:2rem;font-family:var(--fonte-titulo);font-weight:800}.membro-card__nome{font-size:1.0625rem;margin-bottom:4px}.membro-card__cargo{font-size:.875rem;color:var(--cor-acento);font-weight:600;margin-bottom:12px}.membro-card__bio{font-size:.875rem;color:var(--texto-secundario);line-height:1.65}.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}.artigo-card{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-md);overflow:hidden;transition:border-color var(--transicao),transform var(--transicao);display:flex;flex-direction:column}.artigo-card:hover{border-color:rgba(0,212,255,.3);transform:translateY(-2px)}.artigo-card__imagem-placeholder{background-color:var(--cor-borda);height:180px;display:flex;align-items:center;justify-content:center;color:var(--texto-muted);font-size:.8125rem}.artigo-card__corpo{padding:20px;flex:1;display:flex;flex-direction:column}.artigo-card__categoria{font-size:.75rem;font-weight:700;color:var(--cor-acento);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}.artigo-card__titulo{font-size:1rem;margin-bottom:10px;line-height:1.4}.artigo-card__titulo a{color:var(--texto-titulo);text-decoration:none;transition:color var(--transicao)}.artigo-card__titulo a:hover{color:var(--cor-acento)}.artigo-card__excerpt{font-size:.875rem;color:var(--texto-secundario);line-height:1.65;flex:1;margin-bottom:16px}.artigo-card__meta{font-size:.8125rem;color:var(--texto-muted);display:flex;gap:12px}.nao-oferecemos{background-color:rgba(90,107,125,.08);border:1px solid var(--cor-borda);border-radius:var(--radius-md);padding:24px;margin-top:48px}.nao-oferecemos__titulo{font-size:.875rem;font-weight:700;color:var(--texto-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}.nao-oferecemos p{font-size:.9rem;color:var(--texto-muted);line-height:1.65}.contato-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}.contato-info__item{display:flex;gap:16px;align-items:flex-start;margin-bottom:24px}.contato-info__icone{width:44px;height:44px;background-color:rgba(0,212,255,.1);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--cor-acento)}.contato-info__label{font-size:.8125rem;font-weight:700;color:var(--texto-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}.contato-info__valor{font-size:1rem;color:var(--texto-titulo);font-weight:500}.contato-info__valor a{color:var(--texto-titulo);transition:color var(--transicao)}.contato-info__valor a:hover{color:var(--cor-acento)}.mapa-embed{border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--cor-borda);margin-top:32px}.mapa-embed iframe{width:100%;height:320px;display:block;border:none}.form-contato{display:flex;flex-direction:column;gap:16px}.form-campo{display:flex;flex-direction:column;gap:6px}.form-campo label{font-size:.875rem;font-weight:600;color:var(--texto-secundario)}.form-campo input,.form-campo textarea{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-sm);padding:12px 16px;font-family:var(--fonte-corpo);font-size:.9375rem;color:var(--texto-titulo);transition:border-color var(--transicao);outline:0}.form-campo input:focus,.form-campo textarea:focus{border-color:var(--cor-acento)}.form-campo textarea{min-height:120px;resize:vertical}@media (max-width:768px){.contato-grid{grid-template-columns:1fr;gap:32px}}.sobre-intro{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.sobre-intro__texto h2{margin-bottom:20px}.sobre-intro__texto p{margin-bottom:16px}.sobre-intro__imagem-placeholder{background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-lg);width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(--texto-muted);font-size:.875rem}@media (max-width:768px){.sobre-intro{grid-template-columns:1fr;gap:32px}}.redes-sociais{display:flex;gap:12px;align-items:center}.rede-social-link{width:40px;height:40px;background-color:var(--cor-superficie);border:1px solid var(--cor-borda);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;color:var(--texto-secundario);transition:border-color var(--transicao),color var(--transicao),background-color var(--transicao)}.rede-social-link:hover{border-color:var(--cor-acento);color:var(--cor-acento);background-color:rgba(0,212,255,.06)}.texto-acento{color:var(--cor-acento)}.texto-acento2{color:var(--cor-acento-2)}.texto-muted{color:var(--texto-muted)}.texto-centro{text-align:center}.texto-direita{text-align:right}.mb-8{margin-bottom:8px}.mb-16{margin-bottom:16px}.mb-24{margin-bottom:24px}.mb-32{margin-bottom:32px}.mb-48{margin-bottom:48px}.mt-8{margin-top:8px}.mt-16{margin-top:16px}.mt-24{margin-top:24px}.mt-32{margin-top:32px}.mt-48{margin-top:48px}.visualmente-oculto{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.divisor{border:none;border-top:1px solid var(--cor-borda);margin-block:48px}.tag{display:inline-flex;align-items:center;padding:4px 12px;border-radius:100px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}.tag--acento{background-color:rgba(0,212,255,.1);color:var(--cor-acento);border:1px solid rgba(0,212,255,.2)}.tag--verde{background-color:rgba(0,191,166,.1);color:var(--cor-acento-2);border:1px solid rgba(0,191,166,.2)}:focus-visible{outline:2px solid var(--cor-acento);outline-offset:3px;border-radius:3px}@media (prefers-reduced-motion:reduce){*,::after,::before{animation-duration:0s!important;animation-iteration-count:1!important;transition-duration:0s!important}}@media print{.btn-whatsapp,.footer,.header,.nav__toggle{display:none!important}body{background:#fff;color:#000}}.beneficios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;margin-top:48px}.beneficio-item{background-color:var(--cor-fundo);border:1px solid var(--cor-borda);padding:32px;border-radius:var(--radius-md);transition:transform var(--transicao)}.beneficio-item:hover{transform:translateY(-5px);border-color:var(--cor-acento)}.beneficio-item__titulo{font-size:1.25rem;color:var(--cor-acento);margin-bottom:16px}.cta-diagnostico{padding-block:80px;background:radial-gradient(circle at center,var(--cor-superficie) 0,var(--cor-fundo) 100%)}.cta-diagnostico__card{display:flex;align-items:center;justify-content:space-between;gap:48px;background:linear-gradient(135deg,rgba(0,212,255,.05) 0,rgba(0,191,166,.05) 100%);border:1px solid var(--cor-borda);border-radius:var(--radius-lg);padding:56px}@media (max-width:900px){.cta-diagnostico__card{flex-direction:column;padding:32px;text-align:center}}.cta-diagnostico__texto h2{font-size:2.25rem;margin-bottom:20px}.lista-check{margin-block:24px}.lista-check li{display:flex;align-items:center;gap:12px;margin-bottom:12px;color:var(--texto-corpo)}.lista-check li::before{content:'✓';color:var(--cor-acento);font-weight:700}.cta-diagnostico__acao{display:flex;flex-direction:column;align-items:center;gap:16px}.cta-diagnostico__pequeno{font-size:.8125rem;color:var(--texto-muted)}.whatsapp-flutuante{position:fixed;bottom:32px;right:32px;width:64px;height:64px;background-color:var(--cor-whatsapp);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(37,211,102,.4);z-index:1000;transition:transform .3s cubic-bezier(.175, .885, .32, 1.275)}.whatsapp-flutuante:hover{transform:scale(1.1) rotate(5deg);background-color:var(--cor-whatsapp-hover)}.whatsapp-flutuante svg{width:32px;height:32px}.artigo{padding-block:60px 100px}.container--estreito{max-width:860px}.artigo__header{text-align:left;margin-bottom:40px}.artigo__header h1{margin-block:16px 20px;font-size:clamp(2rem, 5vw, 3rem);line-height:1.2}.artigo__meta{color:var(--texto-muted);font-size:.9rem}.artigo__capa{margin-bottom:60px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.3);max-height:500px}.artigo__capa img{width:100%;height:100%;object-fit:cover}.artigo__conteudo{font-size:1.125rem;color:var(--texto-corpo);line-height:1.8}.artigo__conteudo .introducao{font-size:1.25rem;font-weight:500;color:var(--texto-titulo);margin-bottom:40px}.artigo__conteudo p{margin-bottom:24px}.artigo__conteudo h2{margin:60px 0 24px;font-size:1.85rem}.artigo__conteudo h3{margin:40px 0 20px;font-size:1.4rem}.artigo__conteudo ol,.artigo__conteudo ul{margin-bottom:32px;padding-left:20px}.artigo__conteudo li{margin-bottom:12px;position:relative}.artigo__conteudo blockquote{margin:48px 0;padding:32px;background-color:var(--cor-superficie);border-left:4px solid var(--cor-acento);border-radius:0 var(--radius-md) var(--radius-md) 0;font-style:italic;font-size:1.25rem;color:var(--texto-titulo)}.artigo__cta-internal{background:var(--cor-superficie);padding:40px;border-radius:var(--radius-lg);border-left:4px solid var(--cor-acento);margin-block:60px;box-shadow:0 10px 30px rgba(0,0,0,.2)}.artigo__cta-internal h3{margin-top:0!important;color:var(--texto-titulo)}.artigo__cta-internal p{margin-bottom:32px}@media (max-width:768px){.artigo{padding-block:40px 60px}.artigo__capa{margin-bottom:40px;max-height:350px}}</style>
 
   <!-- meta og:image -->
   <meta property="og:image" content="https://seomaringa.com.br/favicon.png">
@@ -188,7 +190,7 @@
   <header class="header" role="banner">
     <div class="container">
       <div class="header__inner">
-        <a href="/" class="header__logo" aria-label="SEO Maringá — página inicial">
+        <a href="/" class="header__logo" >
           <span class="header__logo-texto">SEO <span>Maringá</span></span>
         </a>
         <nav class="nav" id="nav-principal" aria-label="Navegação principal">
@@ -201,7 +203,7 @@
           </ul>
         </nav>
         <div class="header__cta">
-          <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20sem%20depender%20de%20an%C3%BAncios." class="btn-whatsapp" rel="noopener noreferrer" target="_blank" aria-label="Falar com o SEO Maringá pelo WhatsApp">
+          <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20sem%20depender%20de%20an%C3%BAncios." class="btn-whatsapp" rel="noopener noreferrer" target="_blank" >
             <svg class="btn-whatsapp__icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             Falar no WhatsApp
           </a>
@@ -230,17 +232,16 @@
             Enquanto seus concorrentes pagam R$15, R$30 ou R$50 por clique no Google Ads, nossos clientes aparecem de forma orgânica nas primeiras posições — e aumentam as chances de serem citados por IAs como ChatGPT e Gemini quando alguém busca pelo serviço deles em Maringá.
           </p>
           <div class="hero__acoes" style="justify-content: center; margin: 0 auto;">
-            <a
-              href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20Maring%C3%A1."
+            <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20meu%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20Maring%C3%A1."
               class="btn-whatsapp btn-whatsapp--primary"
               rel="noopener noreferrer"
               target="_blank"
-              aria-label="Solicitar diagnóstico gratuito de SEO pelo WhatsApp"
+              
             >
               <svg class="btn-whatsapp__icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               Solicitar diagnóstico gratuito
             </a>
-            <a href="/servicos.html" class="btn btn--secundario" aria-label="Conhecer os serviços de SEO e GEO do SEO Maringá">
+            <a href="/servicos.html" class="btn btn--secundario" >
               Ver serviços
             </a>
           </div>
@@ -265,7 +266,7 @@
             </div>
             <h3 class="servico-card__titulo">SEO Local em Maringá</h3>
             <p class="servico-card__descricao">Posicionamento orgânico no Google para empresas que querem aparecer nas buscas locais de Maringá e região. Sem anúncios, sem dependência de verba de mídia.</p>
-            <a href="/servicos.html#seo-local" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Saiba mais sobre SEO Local em Maringá">Saiba mais sobre SEO Local em Maringá →</a>
+            <a href="/servicos.html#seo-local" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" >Saiba mais sobre SEO Local em Maringá →</a>
           </li>
 
           <!-- GEO -->
@@ -275,7 +276,7 @@
             </div>
             <h3 class="servico-card__titulo">GEO — Generative Engine Optimization</h3>
             <p class="servico-card__descricao">Otimização para aumentar as chances de ser citado pelo ChatGPT, Gemini e Perplexity quando alguém pergunta sobre sua área de atuação em Maringá.</p>
-            <a href="/servicos.html#geo" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Entender como funciona o GEO">Entender como funciona o GEO →</a>
+            <a href="/servicos.html#geo" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" >Entender como funciona o GEO →</a>
           </li>
 
           <!-- Sites de Alta Performance -->
@@ -285,7 +286,7 @@
             </div>
             <h3 class="servico-card__titulo">Sites de Alta Performance</h3>
             <p class="servico-card__descricao">Sites com foco máximo em velocidade, segurança e estrutura técnica para SEO. PageSpeed 90+ em todos os projetos entregues.</p>
-            <a href="/servicos.html#sites" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Ver como desenvolvemos sites">Ver como desenvolvemos sites →</a>
+            <a href="/servicos.html#sites" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" >Ver como desenvolvemos sites →</a>
           </li>
 
           <!-- Autoridade Digital Local -->
@@ -295,7 +296,7 @@
             </div>
             <h3 class="servico-card__titulo">Autoridade Digital Local</h3>
             <p class="servico-card__descricao">Estratégia completa de presença digital para negócios locais em Maringá — Google Business Profile, páginas por bairro e conteúdo citável por IA.</p>
-            <a href="/servicos.html#autoridade" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" aria-label="Conhecer a estratégia completa">Conhecer a estratégia completa →</a>
+            <a href="/servicos.html#autoridade" class="texto-acento" style="display:inline-block; margin-top:16px; font-weight:600; font-size:0.9rem;" >Conhecer a estratégia completa →</a>
           </li>
 
         </ul>
@@ -429,12 +430,11 @@
           </div>
           
           <div style="text-align: center;">
-            <a
-              href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Quero%20solicitar%20o%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20minha%20empresa%20em%20Maring%C3%A1."
+            <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Quero%20solicitar%20o%20diagn%C3%B3stico%20gratuito%20de%20SEO%20para%20minha%20empresa%20em%20Maring%C3%A1."
               class="btn-whatsapp btn-whatsapp--large"
               rel="noopener noreferrer"
               target="_blank"
-              aria-label="Solicitar diagnóstico gratuito de SEO pelo WhatsApp"
+              
             >
               <svg class="btn-whatsapp__icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               Solicitar diagnóstico gratuito
@@ -471,7 +471,7 @@
           
           <!-- Talvez não seja para você -->
           <div style="background-color: var(--cor-superficie); padding: 32px; border-radius: 16px; border: 1px solid rgba(239, 68, 68, 0.2);">
-            <h3 style="color: #EF4444; font-family: var(--fonte-titulo); font-size: 1.25rem; margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
+            <h3 style="color: #F87171; font-family: var(--fonte-titulo); font-size: 1.25rem; margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
               TALVEZ NÃO SEJA PARA VOCÊ SE:
             </h3>
@@ -515,8 +515,8 @@
 
         <!-- Dores e Solução -->
         <div class="grid-2" style="margin-bottom: 64px;">
-          <div class="ai-answer" style="border-left-color: #EF4444; margin-block: 0;">
-            <p class="ai-answer__label" style="color: #EF4444;">A Dor de Depender de Anúncios</p>
+          <div class="ai-answer" style="border-left-color: #F87171; margin-block: 0;">
+            <p class="ai-answer__label" style="color: #F87171;">A Dor de Depender de Anúncios</p>
             <p>O custo por clique sobe todo mês, leads frios chegam sem parar e, no instante em que o cartão recusa ou a verba pausa, seu telefone para de tocar. É como pagar aluguel caro construindo o patrimônio de outra empresa.</p>
           </div>
           <div class="ai-answer" style="border-left-color: var(--cor-acento-2); margin-block: 0;">
@@ -529,7 +529,7 @@
         <h3 style="text-align: center; margin-bottom: 32px; font-family: var(--fonte-titulo); font-size: 1.5rem;">Cenários de Crescimento Local</h3>
         <div class="grid-2" style="margin-bottom: 64px;">
           <div class="servico-card" style="border-color: rgba(239, 68, 68, 0.4); background: linear-gradient(135deg, var(--cor-superficie) 0%, rgba(239, 68, 68, 0.04) 100%);">
-            <h4 style="color: #EF4444; margin-bottom: 16px; font-family: var(--fonte-titulo); font-size: 1.125rem;">Empresa que não investe em SEO</h4>
+            <h4 style="color: #F87171; margin-bottom: 16px; font-family: var(--fonte-titulo); font-size: 1.125rem;">Empresa que não investe em SEO</h4>
             <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px; color: var(--texto-secundario);">
               <li style="display: flex; gap: 8px;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Fica invisível nas buscas orgânicas estratégicas de Maringá.</span></li>
               <li style="display: flex; gap: 8px;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>O Custo de Aquisição de Cliente (CAC) só aumenta.</span></li>
@@ -552,7 +552,7 @@
         <h3 style="text-align: center; margin-bottom: 32px; font-family: var(--fonte-titulo); font-size: 1.5rem;">Por Trás dos Motores: Performance Técnica</h3>
         <div class="grid-2" style="margin-bottom: 64px;">
            <div class="servico-card" style="border-color: rgba(239, 68, 68, 0.4); background: linear-gradient(135deg, var(--cor-superficie) 0%, rgba(239, 68, 68, 0.04) 100%);">
-            <h4 style="color: #EF4444; margin-bottom: 16px; font-family: var(--fonte-titulo); font-size: 1.125rem;">Template Reutilizado (WordPress / etc)</h4>
+            <h4 style="color: #F87171; margin-bottom: 16px; font-family: var(--fonte-titulo); font-size: 1.125rem;">Template Reutilizado (WordPress / etc)</h4>
             <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px; color: var(--texto-secundario);">
               <li style="display: flex; gap: 8px;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Código inchado e muitos plugins que lentificam o site.</span></li>
               <li style="display: flex; gap: 8px;"><svg style="width: 20px; flex-shrink: 0; color:#EF4444;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> <span>Estrutura superficial bonita, mas invisível para buscadores.</span></li>
@@ -607,95 +607,95 @@
         <div class="secao__cabecalho">
           <h2 class="secao__titulo" id="faq-titulo">Perguntas frequentes sobre SEO e GEO em Maringá</h2>
         </div>
-        <div class="faq-lista" role="list" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="faq-lista" role="list" >
 
-          <div class="faq-item faq-item--aberto" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item faq-item--aberto" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="true" type="button">
-              <span itemprop="name">O que é SEO local e como funciona para empresas em Maringá?</span>
+              <span >O que é SEO local e como funciona para empresas em Maringá?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">SEO local é a otimização do seu site e perfil no Google para aparecer nas buscas de pessoas que estão em Maringá procurando pelo seu serviço. O SEO Maringá usa estratégias técnicas, de conteúdo e de autoridade para posicionar seu negócio nas primeiras posições organicamente — sem pagar por cada clique.</p>
+            <div class="faq-item__resposta" >
+              <p >SEO local é a otimização do seu site e perfil no Google para aparecer nas buscas de pessoas que estão em Maringá procurando pelo seu serviço. O SEO Maringá usa estratégias técnicas, de conteúdo e de autoridade para posicionar seu negócio nas primeiras posições organicamente — sem pagar por cada clique.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">O que é GEO e por que minha empresa precisa aparecer nas IAs?</span>
+              <span >O que é GEO e por que minha empresa precisa aparecer nas IAs?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">GEO (Generative Engine Optimization) é a otimização para ser citado por IAs como ChatGPT, Gemini e Perplexity. Quando alguém pergunta para uma IA "qual é o melhor serviço em Maringá", queremos que sua empresa apareça na resposta. O SEO Maringá estrutura seu conteúdo e dados para que isso aconteça.</p>
+            <div class="faq-item__resposta" >
+              <p >GEO (Generative Engine Optimization) é a otimização para ser citado por IAs como ChatGPT, Gemini e Perplexity. Quando alguém pergunta para uma IA "qual é o melhor serviço em Maringá", queremos que sua empresa apareça na resposta. O SEO Maringá estrutura seu conteúdo e dados para que isso aconteça.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">Quanto tempo leva para aparecer no Google com SEO?</span>
+              <span >Quanto tempo leva para aparecer no Google com SEO?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">Em mercados locais de Maringá com concorrência moderada, os primeiros resultados aparecem entre 60 e 120 dias. Nichos menos competitivos podem ranquear em 30 a 60 dias. O SEO Maringá trabalha com estratégias de resultado progressivo — as melhorias começam a aparecer nas primeiras semanas.</p>
+            <div class="faq-item__resposta" >
+              <p >Em mercados locais de Maringá com concorrência moderada, os primeiros resultados aparecem entre 60 e 120 dias. Nichos menos competitivos podem ranquear em 30 a 60 dias. O SEO Maringá trabalha com estratégias de resultado progressivo — as melhorias começam a aparecer nas primeiras semanas.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">SEO substitui os anúncios pagos no Google?</span>
+              <span >SEO substitui os anúncios pagos no Google?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">Não substituímos — complementamos. Nossa filosofia é "Ads E Orgânico, não Ads OU Orgânico". O tráfego pago traz resultado imediato mas some quando você para de pagar. O SEO gera autoridade permanente que continua funcionando mesmo sem verba de mídia. Os dois juntos maximizam o retorno.</p>
+            <div class="faq-item__resposta" >
+              <p >Não substituímos — complementamos. Nossa filosofia é "Ads E Orgânico, não Ads OU Orgânico". O tráfego pago traz resultado imediato mas some quando você para de pagar. O SEO gera autoridade permanente que continua funcionando mesmo sem verba de mídia. Os dois juntos maximizam o retorno.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">O SEO Maringá atende empresas de qual segmento?</span>
+              <span >O SEO Maringá atende empresas de qual segmento?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">Atendemos todo tipo de empresa local em Maringá e região — dentistas, médicos, advogados, contadores, auto centers, barbearias, clínicas de estética, restaurantes, prestadores de serviço e varejo físico. Qualquer negócio que dependa de ser encontrado por clientes locais se beneficia do SEO e GEO.</p>
+            <div class="faq-item__resposta" >
+              <p >Atendemos todo tipo de empresa local em Maringá e região — dentistas, médicos, advogados, contadores, auto centers, barbearias, clínicas de estética, restaurantes, prestadores de serviço e varejo físico. Qualquer negócio que dependa de ser encontrado por clientes locais se beneficia do SEO e GEO.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">Como funciona o processo de trabalho do SEO Maringá?</span>
+              <span >Como funciona o processo de trabalho do SEO Maringá?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">Começamos com um briefing detalhado sobre seu negócio, concorrentes e objetivos. Desenvolvemos o site e a estratégia de conteúdo com base no nosso framework proprietário. Configuramos o Google Business Profile, Analytics e Search Console. Você acompanha os resultados em tempo real e recebe relatórios mensais.</p>
+            <div class="faq-item__resposta" >
+              <p >Começamos com um briefing detalhado sobre seu negócio, concorrentes e objetivos. Desenvolvemos o site e a estratégia de conteúdo com base no nosso framework proprietário. Configuramos o Google Business Profile, Analytics e Search Console. Você acompanha os resultados em tempo real e recebe relatórios mensais.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">O que é consultoria de SEO em Maringá?</span>
+              <span >O que é consultoria de SEO em Maringá?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">A consultoria de SEO em Maringá é o serviço de análise, planejamento e execução de estratégias para posicionar sua empresa nas primeiras posições do Google para buscas feitas por clientes na cidade. Inclui auditoria técnica do site, pesquisa de palavras-chave locais (ajustando a "consultoria SEO Maringá preço" e escopo), otimização de conteúdo e monitoramento contínuo de resultados.</p>
+            <div class="faq-item__resposta" >
+              <p >A consultoria de SEO em Maringá é o serviço de análise, planejamento e execução de estratégias para posicionar sua empresa nas primeiras posições do Google para buscas feitas por clientes na cidade. Inclui auditoria técnica do site, pesquisa de palavras-chave locais (ajustando a "consultoria SEO Maringá preço" e escopo), otimização de conteúdo e monitoramento contínuo de resultados.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">Qual a diferença entre o SEO Maringá e outras agências de marketing digital?</span>
+              <span >Qual a diferença entre o SEO Maringá e outras agências de marketing digital?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">A maioria das agências oferece SEO como um item de uma lista de serviços. O SEO Maringá é especializado exclusivamente em posicionamento orgânico e GEO — sem distrações. Além disso, trabalhamos com otimização para IAs generativas como ChatGPT e Gemini, o que representa uma vantagem real para nossos clientes em 2026.</p>
+            <div class="faq-item__resposta" >
+              <p >A maioria das agências oferece SEO como um item de uma lista de serviços. O SEO Maringá é especializado exclusivamente em posicionamento orgânico e GEO — sem distrações. Além disso, trabalhamos com otimização para IAs generativas como ChatGPT e Gemini, o que representa uma vantagem real para nossos clientes em 2026.</p>
             </div>
           </div>
 
-          <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="faq-item" role="listitem"  >
             <button class="faq-item__pergunta" aria-expanded="false" type="button">
-              <span itemprop="name">O SEO Maringá faz gestão de tráfego pago?</span>
+              <span >O SEO Maringá faz gestão de tráfego pago?</span>
               <svg class="faq-item__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
-            <div class="faq-item__resposta" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-              <p itemprop="text">Não trabalhamos com gestão de Google Ads ou Meta Ads como serviço principal. Nossa especialidade é SEO e GEO — posicionamento orgânico permanente. Trabalhamos com tráfego pago como complemento estratégico, não como substituto do orgânico.</p>
+            <div class="faq-item__resposta" >
+              <p >Não trabalhamos com gestão de Google Ads ou Meta Ads como serviço principal. Nossa especialidade é SEO e GEO — posicionamento orgânico permanente. Trabalhamos com tráfego pago como complemento estratégico, não como substituto do orgânico.</p>
             </div>
           </div>
 
@@ -745,61 +745,61 @@
         <nav aria-label="Áreas de atendimento do SEO Maringá">
           <ul class="areas-grid" role="list">
             <li>
-              <a href="/agencia-seo-geo-zona-01-maringa/" class="area-link" aria-label="SEO e GEO para empresas na Zona 01 de Maringá">
+              <a href="/agencia-seo-geo-zona-01-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO na Zona 01
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-zona-07-maringa/" class="area-link" aria-label="SEO e GEO para empresas na Zona 07 de Maringá">
+              <a href="/agencia-seo-geo-zona-07-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO na Zona 07
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-jardim-alvorada-maringa/" class="area-link" aria-label="SEO e GEO para empresas no Jardim Alvorada em Maringá">
+              <a href="/agencia-seo-geo-jardim-alvorada-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO no Jardim Alvorada
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-pinheiros-maringa/" class="area-link" aria-label="SEO e GEO para empresas no Pinheiros em Maringá">
+              <a href="/agencia-seo-geo-pinheiros-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO no Pinheiros
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-zona-sul-maringa/" class="area-link" aria-label="SEO e GEO para empresas na Zona Sul de Maringá">
+              <a href="/agencia-seo-geo-zona-sul-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO na Zona Sul
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-zona-5-maringa/" class="area-link" aria-label="SEO e GEO para empresas na Zona 5 de Maringá">
+              <a href="/agencia-seo-geo-zona-5-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO na Zona 5
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-jardim-universitario-maringa/" class="area-link" aria-label="SEO e GEO para empresas no Jardim Universitário em Maringá">
+              <a href="/agencia-seo-geo-jardim-universitario-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO no Jardim Universitário
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-nova-esperanca-maringa/" class="area-link" aria-label="SEO e GEO para empresas em Nova Esperança">
+              <a href="/agencia-seo-geo-nova-esperanca-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO em Nova Esperança
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-sarandi-maringa/" class="area-link" aria-label="SEO e GEO para empresas em Sarandi">
+              <a href="/agencia-seo-geo-sarandi-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO em Sarandi
               </a>
             </li>
             <li>
-              <a href="/agencia-seo-geo-paicandu-maringa/" class="area-link" aria-label="SEO e GEO para empresas em Paiçandu">
+              <a href="/agencia-seo-geo-paicandu-maringa/" class="area-link" >
                 <svg class="area-link__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 SEO e GEO em Paiçandu
               </a>
@@ -815,12 +815,11 @@
       <div class="container">
         <h2 id="cta-titulo">Pronto para aparecer no Google e nas IAs em Maringá?</h2>
         <p>Fale agora com o SEO Maringá e descubra como posicionar sua empresa organicamente — sem depender de anúncios pagos.</p>
-        <a
-          href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20em%20Maring%C3%A1%20sem%20depender%20de%20an%C3%BAncios."
+        <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20como%20aparecer%20no%20Google%20e%20nas%20IAs%20em%20Maring%C3%A1%20sem%20depender%20de%20an%C3%BAncios."
           class="btn-whatsapp btn-whatsapp--large"
           rel="noopener noreferrer"
           target="_blank"
-          aria-label="Falar agora com o SEO Maringá pelo WhatsApp"
+          
         >
           <svg class="btn-whatsapp__icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           Falar agora no WhatsApp
@@ -848,7 +847,7 @@
           <p class="footer__descricao">Agência especializada em SEO e GEO em Maringá, PR. Apareça no Google e nas Inteligências Artificiais sem depender de anúncios.</p>
           <p class="footer__contato-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="color: var(--cor-acento); flex-shrink:0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto." rel="noopener noreferrer" target="_blank" aria-label="Falar com o SEO Maringá pelo WhatsApp">(44) 9 9117-1015</a>
+            <a href="https://wa.me/5544991171015?text=Ol%C3%A1%21%20Vim%20pelo%20site%20seomaringa.com.br%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto." rel="noopener noreferrer" target="_blank" >(44) 9 9117-1015</a>
           </p>
           <p class="footer__contato-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--cor-acento); flex-shrink:0;"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
@@ -856,7 +855,7 @@
           </p>
           <p class="footer__contato-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--cor-acento); flex-shrink:0;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <a href="https://maps.google.com/?q=SEO+Maringá+Zenite+GEO" rel="noopener noreferrer" target="_blank" aria-label="Ver localização no Google Maps">Av. Carneiro Leão, 563 — Zona 01, Maringá/PR</a>
+            <a href="https://maps.google.com/?q=SEO+Maringá+Zenite+GEO" rel="noopener noreferrer" target="_blank" >Av. Carneiro Leão, 563 — Zona 01, Maringá/PR</a>
           </p>
           <div class="redes-sociais" style="margin-top: 20px;" aria-label="Redes sociais">
             <a href="https://instagram.com/zenitegeo" class="rede-social-link" rel="noopener noreferrer" target="_blank" aria-label="Instagram do SEO Maringá">
