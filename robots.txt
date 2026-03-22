@@ -1,14 +1,4 @@
 User-agent: *
 Allow: /
 
-# Permitir robôs de IA para GEO (Generative Engine Optimization)
-User-agent: GPTBot
-Allow: /
-
-User-agent: Claude-WebCrawler
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
 Sitemap: https://seomaringa.com.br/sitemap.xml
