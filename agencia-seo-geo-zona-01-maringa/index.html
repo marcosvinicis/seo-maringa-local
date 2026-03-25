@@ -23,42 +23,85 @@
   <!-- Schema JSON-LD (Etapa 1) -->
   <script type="application/ld+json">
   {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": "BreadcrumbList",
-                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#breadcrumb",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://seomaringa.com.br/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "SEO em Zona 01",
-                              "item": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/"
-                        }
-                  ]
-            },
-            {
-                  "@type": "Service",
-                  "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#service",
-                  "name": "Consultoria de SEO e GEO em Zona 01",
-                  "provider": {
-                        "@id": "https://seomaringa.com.br/#organization"
-                  },
-                  "areaServed": [
-                        {
-                              "@type": "Neighborhood",
-                              "name": "Zona 01"
-                        }
-                  ],
-                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona 01."
-            }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://seomaringa.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO em Zona 01",
+          "item": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/"
+        }
       ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/#service",
+      "name": "Consultoria de SEO e GEO em Zona 01",
+      "provider": {
+        "@id": "https://seomaringa.com.br/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Neighborhood",
+          "name": "Zona 01"
+        }
+      ],
+      "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Zona 01."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O SEO Maringá atende empresas localizadas na Zona 01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O SEO Maringá está localizado na própria Zona 01 (Av. Carneiro Leão, 563) e atende empresas de toda a região central de Maringá. Conhecemos o mercado local, a concorrência e o comportamento de busca dos consumidores da Zona 01."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo leva para aparecer no Google na Zona 01 de Maringá?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Zona 01 tem alta concorrência em muitos segmentos. Em nichos moderados, os primeiros resultados aparecem entre 60 e 90 dias. Em nichos mais competitivos (advocacia, odontologia, medicina), pode levar de 90 a 180 dias para posições de destaque. O SEO Maringá trabalha com estratégias de resultado progressivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é GEO e como funciona para empresas na Zona 01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GEO (Generative Engine Optimization) é a otimização para ser citado por IAs como ChatGPT e Gemini. Quando alguém pergunta \"qual é o melhor advogado na Zona 01 de Maringá?\" para uma IA, queremos que sua empresa apareça na resposta. O SEO Maringá estrutura seu conteúdo e dados para isso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais tipos de empresa na Zona 01 se beneficiam do SEO local?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Qualquer negócio que dependa de clientes locais: escritórios de advocacia, consultórios médicos e odontológicos, contabilidades, imobiliárias, restaurantes, hotéis, lojas de varejo, clínicas de estética, academias e prestadores de serviço em geral. Se seu cliente busca no Google, você precisa de SEO local."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://seomaringa.com.br/#organization",
+      "name": "SEO Maringá",
+      "url": "https://seomaringa.com.br/"
+    }
+  ]
 }
   </script>
 
@@ -104,11 +147,12 @@
       <div class="container">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList">
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/" itemprop="item"><span >Home</span></a>
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
             <meta itemprop="position" content="1">
           </li>
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span  aria-current="page">SEO e GEO na Zona 01 de Maringá</span>
+            <span itemprop="name" aria-current="page">SEO e GEO na Zona 01 de Maringá</span>
+            <meta itemprop="item" content="https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/">
             <meta itemprop="position" content="2">
           </li>
         </ol>

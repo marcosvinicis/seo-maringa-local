@@ -23,42 +23,77 @@
   <!-- Schema JSON-LD (Etapa 1) -->
   <script type="application/ld+json">
   {
-      "@context": "https://schema.org",
-      "@graph": [
-            {
-                  "@type": "BreadcrumbList",
-                  "@id": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/#breadcrumb",
-                  "itemListElement": [
-                        {
-                              "@type": "ListItem",
-                              "position": 1,
-                              "name": "Home",
-                              "item": "https://seomaringa.com.br/"
-                        },
-                        {
-                              "@type": "ListItem",
-                              "position": 2,
-                              "name": "SEO em Nova Esperança",
-                              "item": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/"
-                        }
-                  ]
-            },
-            {
-                  "@type": "Service",
-                  "@id": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/#service",
-                  "name": "Consultoria de SEO e GEO em Nova Esperança",
-                  "provider": {
-                        "@id": "https://seomaringa.com.br/#organization"
-                  },
-                  "areaServed": [
-                        {
-                              "@type": "Neighborhood",
-                              "name": "Nova Esperança"
-                        }
-                  ],
-                  "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Nova Esperança."
-            }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://seomaringa.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO em Nova Esperança",
+          "item": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/"
+        }
       ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/#service",
+      "name": "Consultoria de SEO e GEO em Nova Esperança",
+      "provider": {
+        "@id": "https://seomaringa.com.br/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Neighborhood",
+          "name": "Nova Esperança"
+        }
+      ],
+      "description": "Serviços especializados de otimização de sites (SEO) e inteligência artificial (GEO) para empresas localizadas em Nova Esperança."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O SEO Maringá atende empresas em Nova Esperança?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Atendemos empresas em Nova Esperança que desejam expandir sua visibilidade online e atrair clientes tanto localmente quanto em Maringá e toda a região."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a vantagem do SEO para empresas de Nova Esperança?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O SEO permite que seu negócio em Nova Esperança compita em igualdade com grandes empresas de Maringá, capturando buscas orgânicas estratégicas para o crescimento regional e autoridade de marca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como o GEO funciona para cidades como Nova Esperança?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As IAs consideram a relevância regional. O GEO (Generative Engine Optimization) garante que sua empresa em Nova Esperança seja a indicação número 1 quando alguém busca por soluções na região metropolitana de Maringá via ChatGPT ou Gemini."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://seomaringa.com.br/#organization",
+      "name": "SEO Maringá",
+      "url": "https://seomaringa.com.br/"
+    }
+  ]
 }
   </script>
 
@@ -104,11 +139,12 @@
       <div class="container">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList">
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/" itemprop="item"><span >Home</span></a>
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
             <meta itemprop="position" content="1">
           </li>
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span  aria-current="page">SEO e GEO em Nova Esperança</span>
+            <span itemprop="name" aria-current="page">SEO e GEO em Nova Esperança</span>
+            <meta itemprop="item" content="https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/">
             <meta itemprop="position" content="2">
           </li>
         </ol>
