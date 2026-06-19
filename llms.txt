@@ -9,6 +9,7 @@ Agência de SEO e Generative Engine Optimization para empresas locais em Maring�
 - [Home](https://seomaringa.com.br/): SEO e GEO em Maringá — apareça no Google e nas IAs.
 - [Serviços](https://seomaringa.com.br/servicos.html): SEO local, GEO, sites de alta performance e autoridade digital.
 - [Sobre](https://seomaringa.com.br/sobre.html): História, equipe e metodologia da SEO Maringá.
+- [Resultados](https://seomaringa.com.br/resultados/): Cases de SEO local, Google Maps e GEO em Maringá.
 - [Contato](https://seomaringa.com.br/contato.html): WhatsApp, e-mail e formulário de contato.
 - [Blog](https://seomaringa.com.br/blog/): Artigos sobre SEO local, GEO e presença digital em Maringá.
 

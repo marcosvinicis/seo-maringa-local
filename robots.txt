@@ -2,3 +2,19 @@ User-agent: *
 Allow: /
 
 Sitemap: https://seomaringa.com.br/sitemap.xml
+
+# AI crawlers — permitir acesso ao llms.txt e conteúdo público
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Descoberta para IAs
+# llms.txt: https://seomaringa.com.br/llms.txt
