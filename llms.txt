@@ -24,9 +24,7 @@ Agência de SEO e Generative Engine Optimization para empresas locais em Maring�
 - [Agência SEO e GEO — Zona 01](https://seomaringa.com.br/agencia-seo-geo-zona-01-maringa/): Centro comercial e administrativo de Maringá.
 - [Agência SEO e GEO — Zona 07](https://seomaringa.com.br/agencia-seo-geo-zona-07-maringa/): Atendimento na Zona 07 de Maringá.
 - [Agência SEO e GEO — Zona 5](https://seomaringa.com.br/agencia-seo-geo-zona-5-maringa/): Atendimento na Zona 5 de Maringá.
-- [Agência SEO e GEO — Zona Sul](https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/): Atendimento na Zona Sul de Maringá.
 - [Agência SEO e GEO — Jardim Alvorada](https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/): SEO local no Jardim Alvorada.
-- [Agência SEO e GEO — Pinheiros](https://seomaringa.com.br/agencia-seo-geo-pinheiros-maringa/): SEO local no bairro Pinheiros.
 - [Agência SEO e GEO — Jardim Universitário](https://seomaringa.com.br/agencia-seo-geo-jardim-universitario-maringa/): SEO local no Jardim Universitário.
 - [Agência SEO e GEO — Nova Esperança](https://seomaringa.com.br/agencia-seo-geo-nova-esperanca-maringa/): SEO local em Nova Esperança.
 - [Agência SEO e GEO — Sarandi](https://seomaringa.com.br/agencia-seo-geo-sarandi-maringa/): SEO local em Sarandi.
@@ -57,7 +55,7 @@ Agência de SEO e Generative Engine Optimization para empresas locais em Maring�
 - Especialização em SEO local e GEO (Generative Engine Optimization) em Maringá
 - Sites estáticos em HTML puro — PageSpeed 90+ garantido
 - 3+ anos de experiência e 50+ empresas atendidas na região
-- Páginas dedicadas por bairro e cidade para SEO local hipersegmentado
+- Páginas locais para zonas e cidades da região de Maringá (PR)
 - Resultados orgânicos permanentes — autoridade que não some ao parar anúncios
 
 ## O que não fazemos

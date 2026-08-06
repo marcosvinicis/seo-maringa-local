@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://seomaringa.com.br/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://seomaringa.com.br/servicos.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -34,7 +34,7 @@
   <!-- Páginas Individuais de Serviços -->
   <url>
     <loc>https://seomaringa.com.br/servicos/seo-local-maringa/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -66,18 +66,6 @@
   </url>
   <url>
     <loc>https://seomaringa.com.br/agencia-seo-geo-jardim-alvorada-maringa/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seomaringa.com.br/agencia-seo-geo-pinheiros-maringa/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seomaringa.com.br/agencia-seo-geo-zona-sul-maringa/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -115,14 +103,14 @@
 
   <url>
     <loc>https://seomaringa.com.br/blog/agencia-de-seo-em-maringa/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Blog -->
   <url>
     <loc>https://seomaringa.com.br/blog/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -134,7 +122,7 @@
   </url>
   <url>
     <loc>https://seomaringa.com.br/blog/seo-local-maringa-guia-google-maps/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -146,13 +134,13 @@
   </url>
   <url>
     <loc>https://seomaringa.com.br/blog/consultoria-seo-maringa-o-que-e/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://seomaringa.com.br/blog/como-aparecer-em-primeiro-no-google-maringa/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
