@@ -1,11 +1,7 @@
 # Cloudflare Pages redirects — SEO Maringá
-# Páginas removidas (não são Maringá) → serviços
-/agencia-seo-geo-pinheiros-maringa/ /servicos.html 301
-/agencia-seo-geo-pinheiros-maringa /servicos.html 301
-/agencia-seo-geo-zona-sul-maringa/ /servicos.html 301
-/agencia-seo-geo-zona-sul-maringa /servicos.html 301
-
-# Canonicalização de URLs sem .html
-/servicos /servicos.html 301
-/sobre /sobre.html 301
-/contato /contato.html 301
+# Páginas removidas (não são Maringá) → /servicos (URL canônica sem .html no CF)
+# NÃO redirecionar /servicos → /servicos.html: o Cloudflare já faz o inverso (308) e gera loop.
+/agencia-seo-geo-pinheiros-maringa/ /servicos 301
+/agencia-seo-geo-pinheiros-maringa /servicos 301
+/agencia-seo-geo-zona-sul-maringa/ /servicos 301
+/agencia-seo-geo-zona-sul-maringa /servicos 301
