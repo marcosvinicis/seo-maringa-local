@@ -16,6 +16,7 @@ Agência de SEO e Generative Engine Optimization para empresas locais em Maring�
 ## Serviços
 
 - [SEO Local em Maringá](https://seomaringa.com.br/servicos/seo-local-maringa/): Posicionamento orgânico no Google para buscas locais.
+- [SEO para Médicos em Maringá](https://seomaringa.com.br/servicos/seo-para-medicos-maringa/): SEO local e Google Maps para consultórios e clínicas.
 - [GEO em Maringá](https://seomaringa.com.br/servicos/geo-maringa/): Otimização para citação por ChatGPT, Gemini e Perplexity.
 - [Sites de Alta Performance](https://seomaringa.com.br/servicos/sites-performance-maringa/): Sites estáticos HTML com PageSpeed 90+.
 
@@ -35,6 +36,7 @@ Agência de SEO e Generative Engine Optimization para empresas locais em Maring�
 - [Agência de SEO em Maringá — Como Escolher](https://seomaringa.com.br/blog/agencia-de-seo-em-maringa/): Guia para escolher agência de SEO local em Maringá.
 - [O que é GEO e como funciona em Maringá](https://seomaringa.com.br/blog/o-que-e-geo-e-como-funciona-maringa/): Generative Engine Optimization explicado para empresas locais.
 - [SEO Local em Maringá — Guia Google Maps](https://seomaringa.com.br/blog/seo-local-maringa-guia-google-maps/): Como aparecer no Google Maps em Maringá.
+- [SEO para Médicos em Maringá — Google Maps](https://seomaringa.com.br/blog/seo-para-medicos-maringa-google-maps/): Presença local para consultórios e clínicas.
 - [Site lento perde dinheiro em Maringá](https://seomaringa.com.br/blog/site-lento-perda-dinheiro-maringa/): Impacto de performance no SEO local.
 - [Consultoria SEO em Maringá — o que é](https://seomaringa.com.br/blog/consultoria-seo-maringa-o-que-e/): O que esperar de uma consultoria de SEO local.
 - [Como aparecer em primeiro no Google em Maringá](https://seomaringa.com.br/blog/como-aparecer-em-primeiro-no-google-maringa/): Estratégias de posicionamento orgânico local.
